@@ -1,0 +1,854 @@
+fileFormatVersion: 2
+guid: 3a384f9adf46bcf46912daa21763cb15
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 1
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 3.35
+    animationScaleError: 9.27
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 1827226128182048838
+      firstFrame: 0
+      lastFrame: 14
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: UrbanWarriorRig:cRoot
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L/UrbanWarriorRig:HipPart1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L/UrbanWarriorRig:HipPart1_L/UrbanWarriorRig:HipPart2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L/UrbanWarriorRig:HipPart1_L/UrbanWarriorRig:HipPart2_L/UrbanWarriorRig:Knee_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L/UrbanWarriorRig:HipPart1_L/UrbanWarriorRig:HipPart2_L/UrbanWarriorRig:Knee_L/UrbanWarriorRig:Ankle_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_L/UrbanWarriorRig:HipPart1_L/UrbanWarriorRig:HipPart2_L/UrbanWarriorRig:Knee_L/UrbanWarriorRig:Ankle_L/UrbanWarriorRig:Toes_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R/UrbanWarriorRig:HipPart1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R/UrbanWarriorRig:HipPart1_R/UrbanWarriorRig:HipPart2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R/UrbanWarriorRig:HipPart1_R/UrbanWarriorRig:HipPart2_R/UrbanWarriorRig:Knee_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R/UrbanWarriorRig:HipPart1_R/UrbanWarriorRig:HipPart2_R/UrbanWarriorRig:Knee_R/UrbanWarriorRig:Ankle_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Hip_R/UrbanWarriorRig:HipPart1_R/UrbanWarriorRig:HipPart2_R/UrbanWarriorRig:Knee_R/UrbanWarriorRig:Ankle_R/UrbanWarriorRig:Toes_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:hook_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:hook_Jnt/UrbanWarriorRig:sheath_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:hook_Jnt/UrbanWarriorRig:sheath_Jnt/UrbanWarriorRig:sword_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Lf_legArmor
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Lf_poncho_back_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Lf_poncho_front_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:Eye_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:Eye_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_lower_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_lower_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_upper_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:cheek_upper_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:teeth_lower_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt/UrbanWarriorRig:tongue_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt/UrbanWarriorRig:tongue_03_Jnt/UrbanWarriorRig:tongue_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt/UrbanWarriorRig:tongue_03_Jnt/UrbanWarriorRig:tongue_04_Jnt/UrbanWarriorRig:tongue_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt/UrbanWarriorRig:tongue_03_Jnt/UrbanWarriorRig:tongue_04_Jnt/UrbanWarriorRig:tongue_05_Jnt/UrbanWarriorRig:tongue_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:jaw_trans_Jnt/UrbanWarriorRig:jaw_Jnt/UrbanWarriorRig:tongue_01_Jnt/UrbanWarriorRig:tongue_02_Jnt/UrbanWarriorRig:tongue_03_Jnt/UrbanWarriorRig:tongue_04_Jnt/UrbanWarriorRig:tongue_05_Jnt/UrbanWarriorRig:tongue_06_Jnt/UrbanWarriorRig:tongue_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_l_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_m__Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_lower_r_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_l_10_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_m__Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_lower_Jnt/UrbanWarriorRig:lip_upper_r_10_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_l_Jnt/UrbanWarriorRig:brow_inner_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_l_Jnt/UrbanWarriorRig:brow_inner_l_Jnt/UrbanWarriorRig:brow_corrugator_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_l_Jnt/UrbanWarriorRig:brow_peak_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_r_Jnt/UrbanWarriorRig:brow_inner_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_r_Jnt/UrbanWarriorRig:brow_inner_r_Jnt/UrbanWarriorRig:brow_corrugator_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:brow_r_Jnt/UrbanWarriorRig:brow_peak_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:eye_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_lower_l_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_l_Jnt/UrbanWarriorRig:lid_upper_l_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:eye_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_lower_r_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:eye_socket_r_Jnt/UrbanWarriorRig:lid_upper_r_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt/UrbanWarriorRig:nose_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt/UrbanWarriorRig:nose_Jnt/UrbanWarriorRig:sneer_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt/UrbanWarriorRig:nose_Jnt/UrbanWarriorRig:sneer_l_Jnt/UrbanWarriorRig:nostril_l_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt/UrbanWarriorRig:nose_Jnt/UrbanWarriorRig:sneer_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:nose_bridge_Jnt/UrbanWarriorRig:nose_Jnt/UrbanWarriorRig:sneer_r_Jnt/UrbanWarriorRig:nostril_r_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:face_Jnt/UrbanWarriorRig:face_upper_Jnt/UrbanWarriorRig:teeth_upper_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt/UrbanWarriorRig:hair_A_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt/UrbanWarriorRig:hair_A_02_Jnt/UrbanWarriorRig:hair_A_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt/UrbanWarriorRig:hair_A_02_Jnt/UrbanWarriorRig:hair_A_03_Jnt/UrbanWarriorRig:hair_A_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt/UrbanWarriorRig:hair_A_02_Jnt/UrbanWarriorRig:hair_A_03_Jnt/UrbanWarriorRig:hair_A_04_Jnt/UrbanWarriorRig:hair_A_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_A_01_Jnt/UrbanWarriorRig:hair_A_02_Jnt/UrbanWarriorRig:hair_A_03_Jnt/UrbanWarriorRig:hair_A_04_Jnt/UrbanWarriorRig:hair_A_05_Jnt/UrbanWarriorRig:hair_A_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_B_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_B_01_Jnt/UrbanWarriorRig:hair_B_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_B_01_Jnt/UrbanWarriorRig:hair_B_02_Jnt/UrbanWarriorRig:hair_B_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_C_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_C_01_Jnt/UrbanWarriorRig:hair_C_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_C_01_Jnt/UrbanWarriorRig:hair_C_02_Jnt/UrbanWarriorRig:hair_C_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_C_01_Jnt/UrbanWarriorRig:hair_C_02_Jnt/UrbanWarriorRig:hair_C_03_Jnt/UrbanWarriorRig:hair_C_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_D_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_D_01_Jnt/UrbanWarriorRig:hair_D_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_D_01_Jnt/UrbanWarriorRig:hair_D_02_Jnt/UrbanWarriorRig:hair_D_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt/UrbanWarriorRig:hair_E_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt/UrbanWarriorRig:hair_E_04_Jnt/UrbanWarriorRig:hair_E_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt/UrbanWarriorRig:hair_E_04_Jnt/UrbanWarriorRig:hair_E_05_Jnt/UrbanWarriorRig:hair_E_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt/UrbanWarriorRig:hair_E_04_Jnt/UrbanWarriorRig:hair_E_05_Jnt/UrbanWarriorRig:hair_E_06_Jnt/UrbanWarriorRig:hair_E_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_E_01_Jnt/UrbanWarriorRig:hair_E_02_Jnt/UrbanWarriorRig:hair_E_03_Jnt/UrbanWarriorRig:hair_E_04_Jnt/UrbanWarriorRig:hair_E_05_Jnt/UrbanWarriorRig:hair_E_06_Jnt/UrbanWarriorRig:hair_E_07_Jnt/UrbanWarriorRig:hair_E_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_F_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_F_01_Jnt/UrbanWarriorRig:hair_F_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_F_01_Jnt/UrbanWarriorRig:hair_F_02_Jnt/UrbanWarriorRig:hair_F_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_F_01_Jnt/UrbanWarriorRig:hair_F_02_Jnt/UrbanWarriorRig:hair_F_03_Jnt/UrbanWarriorRig:hair_F_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_G_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_G_01_Jnt/UrbanWarriorRig:hair_G_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_G_01_Jnt/UrbanWarriorRig:hair_G_02_Jnt/UrbanWarriorRig:hair_G_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_G_01_Jnt/UrbanWarriorRig:hair_G_02_Jnt/UrbanWarriorRig:hair_G_03_Jnt/UrbanWarriorRig:hair_G_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_H_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_H_01_Jnt/UrbanWarriorRig:hair_H_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_H_01_Jnt/UrbanWarriorRig:hair_H_02_Jnt/UrbanWarriorRig:hair_H_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_J_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_J_01_Jnt/UrbanWarriorRig:hair_J_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_J_01_Jnt/UrbanWarriorRig:hair_J_02_Jnt/UrbanWarriorRig:hair_J_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_K_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_K_01_Jnt/UrbanWarriorRig:hair_K_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_K_01_Jnt/UrbanWarriorRig:hair_K_02_Jnt/UrbanWarriorRig:hair_K_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_L_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_L_01_Jnt/UrbanWarriorRig:hair_L_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_L_01_Jnt/UrbanWarriorRig:hair_L_02_Jnt/UrbanWarriorRig:hair_L_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_M_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_M_01_Jnt/UrbanWarriorRig:hair_M_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_M_01_Jnt/UrbanWarriorRig:hair_M_02_Jnt/UrbanWarriorRig:hair_M_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_N_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_N_01_Jnt/UrbanWarriorRig:hair_N_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hair_N_01_Jnt/UrbanWarriorRig:hair_N_02_Jnt/UrbanWarriorRig:hair_N_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:hairBun_2_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:hairBun_2_Jnt/UrbanWarriorRig:hairBun_3_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt/UrbanWarriorRig:ribbon_A_14a_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt/UrbanWarriorRig:ribbon_A_14a_Jnt/UrbanWarriorRig:ribbon_A_15_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt/UrbanWarriorRig:ribbon_A_14a_Jnt/UrbanWarriorRig:ribbon_A_15_Jnt/UrbanWarriorRig:ribbon_A_16_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt/UrbanWarriorRig:ribbon_A_14a_Jnt/UrbanWarriorRig:ribbon_A_15_Jnt/UrbanWarriorRig:ribbon_A_16_Jnt/UrbanWarriorRig:ribbon_A_17_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_A_00_Jnt/UrbanWarriorRig:ribbon_A_01_Jnt/UrbanWarriorRig:ribbon_A_02_Jnt/UrbanWarriorRig:ribbon_A_03_Jnt/UrbanWarriorRig:ribbon_A_04_Jnt/UrbanWarriorRig:ribbon_A_05_Jnt/UrbanWarriorRig:ribbon_A_06_Jnt/UrbanWarriorRig:ribbon_A_07_Jnt/UrbanWarriorRig:ribbon_A_08_Jnt/UrbanWarriorRig:ribbon_A_09_Jnt/UrbanWarriorRig:ribbon_A_10_Jnt/UrbanWarriorRig:ribbon_A_10a_Jnt/UrbanWarriorRig:ribbon_A_11_Jnt/UrbanWarriorRig:ribbon_A_12_Jnt/UrbanWarriorRig:ribbon_A_13_Jnt/UrbanWarriorRig:ribbon_A_14_Jnt/UrbanWarriorRig:ribbon_A_14a_Jnt/UrbanWarriorRig:ribbon_A_15_Jnt/UrbanWarriorRig:ribbon_A_16_Jnt/UrbanWarriorRig:ribbon_A_17_Jnt/UrbanWarriorRig:ribbon_A_18_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt/UrbanWarriorRig:ribbon_B_05a_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt/UrbanWarriorRig:ribbon_B_05a_Jnt/UrbanWarriorRig:ribbon_B_06_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt/UrbanWarriorRig:ribbon_B_05a_Jnt/UrbanWarriorRig:ribbon_B_06_Jnt/UrbanWarriorRig:ribbon_B_07_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt/UrbanWarriorRig:ribbon_B_05a_Jnt/UrbanWarriorRig:ribbon_B_06_Jnt/UrbanWarriorRig:ribbon_B_07_Jnt/UrbanWarriorRig:ribbon_B_08_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:HeadEnd_M/UrbanWarriorRig:hairBun_1_Jnt/UrbanWarriorRig:ribbon_B_00_Jnt/UrbanWarriorRig:ribbon_B_01_Jnt/UrbanWarriorRig:ribbon_B_02_Jnt/UrbanWarriorRig:ribbon_B_03_Jnt/UrbanWarriorRig:ribbon_B_04_Jnt/UrbanWarriorRig:ribbon_B_05_Jnt/UrbanWarriorRig:ribbon_B_05a_Jnt/UrbanWarriorRig:ribbon_B_06_Jnt/UrbanWarriorRig:ribbon_B_07_Jnt/UrbanWarriorRig:ribbon_B_08_Jnt/UrbanWarriorRig:ribbon_B_09_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:pipe_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Neck_M/UrbanWarriorRig:NeckPart1_M/UrbanWarriorRig:NeckPart2_M/UrbanWarriorRig:Head_M/UrbanWarriorRig:pipe_Jnt/UrbanWarriorRig:pipeTip_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Rt_poncho_back1_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Rt_poncho_back1_Jnt/UrbanWarriorRig:Rt_poncho_back2_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Rt_poncho_frontA1_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Rt_poncho_frontA1_Jnt/UrbanWarriorRig:Rt_poncho_frontA2_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Rt_poncho_frontB_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:bandage_01_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:bandage_01_Jnt/UrbanWarriorRig:bandage_02_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:bandage_01_Jnt/UrbanWarriorRig:bandage_02_Jnt/UrbanWarriorRig:bandage_03_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:bandage_01_Jnt/UrbanWarriorRig:bandage_02_Jnt/UrbanWarriorRig:bandage_03_Jnt/UrbanWarriorRig:bandage_04_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:bandage_01_Jnt/UrbanWarriorRig:bandage_02_Jnt/UrbanWarriorRig:bandage_03_Jnt/UrbanWarriorRig:bandage_04_Jnt/UrbanWarriorRig:bandage_05_Jnt
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:PinkyFinger1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:PinkyFinger1_L/UrbanWarriorRig:PinkyFinger2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:PinkyFinger1_L/UrbanWarriorRig:PinkyFinger2_L/UrbanWarriorRig:PinkyFinger3_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:PinkyFinger1_L/UrbanWarriorRig:PinkyFinger2_L/UrbanWarriorRig:PinkyFinger3_L/UrbanWarriorRig:PinkyFinger4_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:RingFinger1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:RingFinger1_L/UrbanWarriorRig:RingFinger2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:RingFinger1_L/UrbanWarriorRig:RingFinger2_L/UrbanWarriorRig:RingFinger3_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:Cup_L/UrbanWarriorRig:RingFinger1_L/UrbanWarriorRig:RingFinger2_L/UrbanWarriorRig:RingFinger3_L/UrbanWarriorRig:RingFinger4_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:IndexFinger1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:IndexFinger1_L/UrbanWarriorRig:IndexFinger2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:IndexFinger1_L/UrbanWarriorRig:IndexFinger2_L/UrbanWarriorRig:IndexFinger3_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:IndexFinger1_L/UrbanWarriorRig:IndexFinger2_L/UrbanWarriorRig:IndexFinger3_L/UrbanWarriorRig:IndexFinger4_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:MiddleFinger1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:MiddleFinger1_L/UrbanWarriorRig:MiddleFinger2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:MiddleFinger1_L/UrbanWarriorRig:MiddleFinger2_L/UrbanWarriorRig:MiddleFinger3_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:MiddleFinger1_L/UrbanWarriorRig:MiddleFinger2_L/UrbanWarriorRig:MiddleFinger3_L/UrbanWarriorRig:MiddleFinger4_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:ThumbFinger1_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:ThumbFinger1_L/UrbanWarriorRig:ThumbFinger2_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:ThumbFinger1_L/UrbanWarriorRig:ThumbFinger2_L/UrbanWarriorRig:ThumbFinger3_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_L/UrbanWarriorRig:Shoulder_L/UrbanWarriorRig:ShoulderPart1_L/UrbanWarriorRig:ShoulderPart2_L/UrbanWarriorRig:Elbow_L/UrbanWarriorRig:ElbowPart1_L/UrbanWarriorRig:ElbowPart2_L/UrbanWarriorRig:Wrist_L/UrbanWarriorRig:ThumbFinger1_L/UrbanWarriorRig:ThumbFinger2_L/UrbanWarriorRig:ThumbFinger3_L/UrbanWarriorRig:ThumbFinger4_L
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:PinkyFinger1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:PinkyFinger1_R/UrbanWarriorRig:PinkyFinger2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:PinkyFinger1_R/UrbanWarriorRig:PinkyFinger2_R/UrbanWarriorRig:PinkyFinger3_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:PinkyFinger1_R/UrbanWarriorRig:PinkyFinger2_R/UrbanWarriorRig:PinkyFinger3_R/UrbanWarriorRig:PinkyFinger4_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:RingFinger1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:RingFinger1_R/UrbanWarriorRig:RingFinger2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:RingFinger1_R/UrbanWarriorRig:RingFinger2_R/UrbanWarriorRig:RingFinger3_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:Cup_R/UrbanWarriorRig:RingFinger1_R/UrbanWarriorRig:RingFinger2_R/UrbanWarriorRig:RingFinger3_R/UrbanWarriorRig:RingFinger4_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:IndexFinger1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:IndexFinger1_R/UrbanWarriorRig:IndexFinger2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:IndexFinger1_R/UrbanWarriorRig:IndexFinger2_R/UrbanWarriorRig:IndexFinger3_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:IndexFinger1_R/UrbanWarriorRig:IndexFinger2_R/UrbanWarriorRig:IndexFinger3_R/UrbanWarriorRig:IndexFinger4_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:MiddleFinger1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:MiddleFinger1_R/UrbanWarriorRig:MiddleFinger2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:MiddleFinger1_R/UrbanWarriorRig:MiddleFinger2_R/UrbanWarriorRig:MiddleFinger3_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:MiddleFinger1_R/UrbanWarriorRig:MiddleFinger2_R/UrbanWarriorRig:MiddleFinger3_R/UrbanWarriorRig:MiddleFinger4_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:ThumbFinger1_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:ThumbFinger1_R/UrbanWarriorRig:ThumbFinger2_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:ThumbFinger1_R/UrbanWarriorRig:ThumbFinger2_R/UrbanWarriorRig:ThumbFinger3_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:RootPart1_M/UrbanWarriorRig:RootPart2_M/UrbanWarriorRig:Spine1_M/UrbanWarriorRig:Spine1Part1_M/UrbanWarriorRig:Spine1Part2_M/UrbanWarriorRig:Chest_M/UrbanWarriorRig:Scapula_R/UrbanWarriorRig:Shoulder_R/UrbanWarriorRig:ShoulderPart1_R/UrbanWarriorRig:ShoulderPart2_R/UrbanWarriorRig:Elbow_R/UrbanWarriorRig:ElbowPart1_R/UrbanWarriorRig:ElbowPart2_R/UrbanWarriorRig:Wrist_R/UrbanWarriorRig:ThumbFinger1_R/UrbanWarriorRig:ThumbFinger2_R/UrbanWarriorRig:ThumbFinger3_R/UrbanWarriorRig:ThumbFinger4_R
+        weight: 1
+      - path: UrbanWarriorRig:cRoot/UrbanWarriorRig:Root_M/UrbanWarriorRig:Rt_legArmor
+        weight: 1
+      - path: UrbanWarriorRig:GEO
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:band1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:band_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:bandage3_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:bandend1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:bandend2_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:base_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:beard_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:bodyup_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:earring1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:earring_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:eyebrow_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hair1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hair2_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hair3_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hair4_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hair5_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:hairbun_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:handle_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:head_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotL1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotL2_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotL_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotR1_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotR2_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:knotR_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:lace_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:laceendL_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:laceendR_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:leashbot_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:leashup_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:lense_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:nail
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:pipe_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:ponchoL_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:ponchoR_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:scarf_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:shirt_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:shoes_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:sticker1
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:sticker2
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:sticker3
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:strap_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:sword_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:teethbot_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:teethup_low
+        weight: 1
+      - path: UrbanWarriorRig:GEO/UrbanWarriorRig:tongue_low
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: UrbanWarriorRig:cRoot
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6321e6455b6a5ce489173440642f32c6, type: 3}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 2
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
