@@ -76,13 +76,13 @@ public class PlayerController : MonoBehaviour
             transform.position += moveDirection * targetSpeed * Time.deltaTime;
             transform.forward = moveDirection;
 
-            // Плавно меняем Speed в Animator
+            
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, targetSpeed, Time.deltaTime * animationSmooth));
         }
         else
         {
-            // Плавно сбрасываем Speed до 0
+            
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, 0f, Time.deltaTime * animationSmooth));
         }

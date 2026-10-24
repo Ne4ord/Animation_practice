@@ -5,7 +5,7 @@ public class MainMenu : MonoBehaviour
 {
     void Awake()
     {
-        // Если пришли сюда из паузы или с экрана конца игры — снимаем паузу
+        
         Time.timeScale = 1f;
         AudioListener.pause = false;
         Cursor.lockState = CursorLockMode.None;
@@ -15,7 +15,7 @@ public class MainMenu : MonoBehaviour
     public void PlayGame()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("Game"); // название сцены с игрой
+        SceneManager.LoadScene("Game"); 
     }
 
     public void QuitGame()

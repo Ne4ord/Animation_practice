@@ -1,9 +1,9 @@
 using UnityEngine;
-using TMPro; // или using UnityEngine.UI для обычного Text
+using TMPro; 
 
 public class ScoreUI : MonoBehaviour
 {
-    private TextMeshProUGUI text; // или public Text text;
+    private TextMeshProUGUI text; 
 
     void Start()
     {
