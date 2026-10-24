@@ -17,39 +17,7 @@ ModelImporter:
     removeConstantScaleCurves: 0
     motionNodeName: <Root Transform>
     animationImportErrors: 
-    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
-      might lower retargeting quality:\nNote: Activate translation DOF on avatar
-      to improve retargeting quality.\n\t'UrbanWarriorRig:Hip_R' has translation
-      animation that will be discarded.\n\t'UrbanWarriorRig:Hip_R' is inbetween humanoid
-      transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:RootPart1_M'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:RootPart1_M'
-      has scale animation that will be discarded.\n\t'UrbanWarriorRig:RootPart2_M'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:RootPart2_M'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:RootPart2_M'
-      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Spine1_M' has
-      translation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1_M'
-      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part1_M'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part1_M'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part1_M'
-      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part2_M'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part2_M'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part2_M'
-      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Chest_M' has
-      translation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_R'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ShoulderPart2_R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ElbowPart1_R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Wrist_R'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_L'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ShoulderPart2_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ElbowPart1_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Wrist_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Hip_L'
-      has translation animation that will be discarded.\n\t'UrbanWarriorRig:Hip_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_L'
-      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationImportWarnings: 
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -75,7 +43,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 1
-      loopBlend: 0
+      loopBlend: 1
       loopBlendOrientation: 0
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
