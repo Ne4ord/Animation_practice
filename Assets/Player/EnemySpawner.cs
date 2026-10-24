@@ -48,7 +48,16 @@ public class EnemySpawner : MonoBehaviour
         Vector3 randomPos = player.position + new Vector3(randomCircle.x, 0, randomCircle.y);
         randomPos.y = 1;
 
-        Instantiate(enemyPrefab, randomPos, Quaternion.identity);
+        GameObject enemyObj = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
+
+        
+        enemyObj.SetActive(true);
+        foreach (MonoBehaviour mb in enemyObj.GetComponents<MonoBehaviour>())
+        {
+            if (mb is Enemy || mb is EnemyAttack)
+                mb.enabled = true;
+        }
+
         currentEnemies++;
     }
 }

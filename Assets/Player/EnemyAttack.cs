@@ -22,9 +22,11 @@ public class EnemyAttack : MonoBehaviour
         if (enemy != null && enemy.IsDead()) return;
         if (player == null) return;
 
-        float distance = Vector3.Distance(transform.position, player.position);
+        Vector3 toPlayer = player.position - transform.position;
+        toPlayer.y = 0;
+        float distance = toPlayer.magnitude;
 
-        if (distance <= attackRange && Time.time >= lastAttackTime + attackCooldown)
+        if (distance <= attackRange + 0.5f && Time.time >= lastAttackTime + attackCooldown)
         {
             Attack();
             lastAttackTime = Time.time;

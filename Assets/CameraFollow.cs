@@ -12,7 +12,7 @@ public class CameraFollow : MonoBehaviour
 
     [Header("Rotation")]
     public float mouseSensitivity = 3f;
-    public float minVerticalAngle = -20f;
+    public float minVerticalAngle = -5f;
     public float maxVerticalAngle = 60f;
 
     [Header("Smooth")]
@@ -35,16 +35,19 @@ public class CameraFollow : MonoBehaviour
     {
         if (player == null) return;
 
-        // ���� ����
+        // На паузе (и на экране конца игры) камеру не крутим
+        if (Time.timeScale == 0f) return;
+
+        // Вращение мышью
         rotationX += Input.GetAxis("Mouse X") * mouseSensitivity;
         rotationY -= Input.GetAxis("Mouse Y") * mouseSensitivity;
         rotationY = Mathf.Clamp(rotationY, minVerticalAngle, maxVerticalAngle);
 
-        // ������ � ���
+        // Приближение колёсиком
         distance -= Input.GetAxis("Mouse ScrollWheel") * 3f;
         distance = Mathf.Clamp(distance, minDistance, maxDistance);
 
-        // ������� ������
+        // Позиция камеры
         Quaternion rotation = Quaternion.Euler(rotationY, rotationX, 0);
         Vector3 targetPosition = player.position + rotation * new Vector3(0, 0, -distance);
 

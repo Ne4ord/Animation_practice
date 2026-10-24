@@ -17,7 +17,42 @@ ModelImporter:
     removeConstantScaleCurves: 1
     motionNodeName: 
     animationImportErrors: 
-    animationImportWarnings: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'UrbanWarriorRig:Hip_R' is inbetween humanoid
+      transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Hip_R'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:HipPart1_R'
+      has translation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart1_R'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_R'
+      has translation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_R'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Knee_R' has
+      translation animation that will be discarded.\n\t'UrbanWarriorRig:Knee_R' has
+      scale animation that will be discarded.\n\t'UrbanWarriorRig:Ankle_R' has translation
+      animation that will be discarded.\n\t'UrbanWarriorRig:RootPart2_M' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Spine1Part2_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ShoulderPart2_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ElbowPart1_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Wrist_R'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:NeckPart1_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Head_M'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Scapula_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ShoulderPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:ElbowPart1_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Wrist_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Hip_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:Hip_L'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:HipPart1_L'
+      has translation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart1_L'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_L'
+      has translation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_L'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'UrbanWarriorRig:HipPart2_L'
+      has scale animation that will be discarded.\n\t'UrbanWarriorRig:Knee_L' has
+      translation animation that will be discarded.\n\t'UrbanWarriorRig:Knee_L' has
+      scale animation that will be discarded.\n\t'UrbanWarriorRig:Ankle_L' has translation
+      animation that will be discarded.\n"
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
@@ -827,8 +862,1803 @@ ModelImporter:
   humanDescription:
     serializedVersion: 3
     human: []
-    skeleton: []
-    armTwist: 0.5
+    skeleton:
+    - name: RunDemo(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:cRoot
+      parentName: RunDemo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:Root_M
+      parentName: UrbanWarriorRig:cRoot
+      position: {x: -0.000000015832484, y: 1.1871216, z: 0.021938562}
+      rotation: {x: 0.47771442, y: -0.5213338, z: -0.47771442, w: 0.5213338}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:hook_Jnt
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: -0.1051626, y: -0.17347813, z: 0.072757035}
+      rotation: {x: -0.71942914, y: 0.20164475, z: 0.53771824, w: 0.39066643}
+      scale: {x: 1, y: 0.99999976, z: 1}
+    - name: UrbanWarriorRig:sheath_Jnt
+      parentName: UrbanWarriorRig:hook_Jnt
+      position: {x: -0.054560464, y: -0.0068981126, z: 0.012079733}
+      rotation: {x: -0.0026860547, y: 0.050522458, z: -0.005221062, w: 0.9987057}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: UrbanWarriorRig:sword_Jnt
+      parentName: UrbanWarriorRig:sheath_Jnt
+      position: {x: -0.28206816, y: -1.0658141e-16, z: 9.947598e-16}
+      rotation: {x: -0.21222878, y: -0.25222787, z: 0.31195244, w: 0.8910813}
+      scale: {x: 1, y: 0.99999976, z: 0.9999999}
+    - name: UrbanWarriorRig:RootPart1_M
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: -0.06774092, y: 0, z: 1.7763568e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 0.9999999, z: 0.9999999}
+    - name: UrbanWarriorRig:RootPart2_M
+      parentName: UrbanWarriorRig:RootPart1_M
+      position: {x: -0.06774092, y: -3.5527135e-16, z: 4.4408918e-17}
+      rotation: {x: -0.000000029802322, y: 0.000000029802322, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:Spine1_M
+      parentName: UrbanWarriorRig:RootPart2_M
+      position: {x: -0.06774092, y: 1.4210854e-16, z: -7.105427e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:Spine1Part1_M
+      parentName: UrbanWarriorRig:Spine1_M
+      position: {x: -0.056515183, y: 0, z: -4.4408918e-17}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000001}
+    - name: UrbanWarriorRig:Spine1Part2_M
+      parentName: UrbanWarriorRig:Spine1Part1_M
+      position: {x: -0.056515183, y: -1.4210854e-16, z: 0}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: -0, w: 1}
+      scale: {x: 1.0000008, y: 1.0000007, z: 1.0000005}
+    - name: UrbanWarriorRig:Chest_M
+      parentName: UrbanWarriorRig:Spine1Part2_M
+      position: {x: -0.056515183, y: 3.5527135e-16, z: 8.881784e-18}
+      rotation: {x: 0.000000029802322, y: -0.000000029802322, z: 0.04607597, w: 0.99893796}
+      scale: {x: 1.000002, y: 1.0000021, z: 1.0000014}
+    - name: UrbanWarriorRig:Lf_poncho_back_Jnt
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.20185065, y: -0.17891546, z: 0.18897882}
+      rotation: {x: -0.4096783, y: 0.5763365, z: 0.4096783, w: 0.57633644}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: UrbanWarriorRig:Lf_poncho_front_Jnt
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.11852312, y: 0.09095295, z: 0.19226505}
+      rotation: {x: -0.29883626, y: 0.29883632, z: 0.64085644, w: 0.6408564}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:Scapula_R
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.19650386, y: -0.01381414, z: -0.028561499}
+      rotation: {x: 0.12770064, y: 0.6954801, z: -0.001514098, w: -0.70710516}
+      scale: {x: 1.0000039, y: 1.0000008, z: 1.0000012}
+    - name: UrbanWarriorRig:Shoulder_R
+      parentName: UrbanWarriorRig:Scapula_R
+      position: {x: -0.16420229, y: 0, z: 7.81597e-16}
+      rotation: {x: -0.013952934, y: -0.1514823, z: -0.09066962, w: 0.9841938}
+      scale: {x: 1.0000008, y: 0.99999994, z: 1.0000002}
+    - name: UrbanWarriorRig:ShoulderPart1_R
+      parentName: UrbanWarriorRig:Shoulder_R
+      position: {x: -0.11, y: -2.842171e-16, z: -7.105427e-17}
+      rotation: {x: -0.000000057741985, y: 0.116510436, z: -0.00000066036574, w: 0.99318945}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: UrbanWarriorRig:ShoulderPart2_R
+      parentName: UrbanWarriorRig:ShoulderPart1_R
+      position: {x: -0.11, y: 2.842171e-16, z: 0}
+      rotation: {x: 4.440892e-16, y: 0.000000029802322, z: 0.000000014901161, w: 1}
+      scale: {x: 1.0000014, y: 1.0000002, z: 1.0000004}
+    - name: UrbanWarriorRig:Elbow_R
+      parentName: UrbanWarriorRig:ShoulderPart2_R
+      position: {x: -0.11, y: -2.842171e-16, z: -2.842171e-16}
+      rotation: {x: 0.0020043808, y: 0.021813562, z: -0.036133047, w: 0.99910694}
+      scale: {x: 0.9999991, y: 1.000001, z: 1.0000001}
+    - name: UrbanWarriorRig:ElbowPart1_R
+      parentName: UrbanWarriorRig:Elbow_R
+      position: {x: -0.11333333, y: -1.4210854e-16, z: 1.4210854e-16}
+      rotation: {x: 0.000000022638748, y: -0.0000000428116, z: 0.00000004470348, w: 1}
+      scale: {x: 1.000003, y: 1.0000011, z: 1.000003}
+    - name: UrbanWarriorRig:ElbowPart2_R
+      parentName: UrbanWarriorRig:ElbowPart1_R
+      position: {x: -0.11333333, y: 0, z: 0}
+      rotation: {x: -0.000000037252903, y: 0.000000074505806, z: -0.000000014901161, w: 1}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.99999994}
+    - name: UrbanWarriorRig:Wrist_R
+      parentName: UrbanWarriorRig:ElbowPart2_R
+      position: {x: -0.11333333, y: -4.2632563e-16, z: 1.4210854e-16}
+      rotation: {x: 0.007671192, y: -0.10460919, z: 0.010693107, w: 0.99442637}
+      scale: {x: 1.0000012, y: 1.0000005, z: 1.0000002}
+    - name: UrbanWarriorRig:MiddleFinger1_R
+      parentName: UrbanWarriorRig:Wrist_R
+      position: {x: -0.14923994, y: -7.105427e-17, z: 2.842171e-16}
+      rotation: {x: 0.014170805, y: -0.025690768, z: 0.019155558, w: 0.99938595}
+      scale: {x: 1.0000007, y: 1.0000002, z: 0.9999997}
+    - name: UrbanWarriorRig:MiddleFinger2_R
+      parentName: UrbanWarriorRig:MiddleFinger1_R
+      position: {x: -0.06908535, y: 0, z: -6.3948843e-16}
+      rotation: {x: 0.000000006519256, y: -0.0386177, z: -0.0000010210784, w: 0.99925405}
+      scale: {x: 1.0000006, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:MiddleFinger3_R
+      parentName: UrbanWarriorRig:MiddleFinger2_R
+      position: {x: -0.04, y: 0, z: 2.4868996e-16}
+      rotation: {x: -0.000000059604645, y: -0.017452538, z: -0.000000059604645, w: 0.9998477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:MiddleFinger4_R
+      parentName: UrbanWarriorRig:MiddleFinger3_R
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: -0.000000057194274, y: -0.000000009313222, z: -0.000000023248793, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999998}
+    - name: UrbanWarriorRig:ThumbFinger1_R
+      parentName: UrbanWarriorRig:Wrist_R
+      position: {x: -0.010182858, y: 0.012743644, z: -0.0058537903}
+      rotation: {x: -0.18835399, y: 0.023840358, z: -0.3838111, w: 0.90368325}
+      scale: {x: 1.0000008, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:ThumbFinger2_R
+      parentName: UrbanWarriorRig:ThumbFinger1_R
+      position: {x: -0.09212763, y: 4.2632563e-16, z: 2.842171e-16}
+      rotation: {x: -0.069776855, y: -0.029492052, z: -0.0072173574, w: 0.99710053}
+      scale: {x: 1, y: 0.9999998, z: 1.000001}
+    - name: UrbanWarriorRig:ThumbFinger3_R
+      parentName: UrbanWarriorRig:ThumbFinger2_R
+      position: {x: -0.044188235, y: -1.0658141e-16, z: -4.2632563e-16}
+      rotation: {x: -0.00000040978173, y: -0.03704631, z: 0.0000009168866, w: 0.99931353}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: UrbanWarriorRig:ThumbFinger4_R
+      parentName: UrbanWarriorRig:ThumbFinger3_R
+      position: {x: -0.037279952, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 0.000000009313226, w: 1}
+      scale: {x: 0.9999997, y: 0.9999997, z: 1.0000001}
+    - name: UrbanWarriorRig:IndexFinger1_R
+      parentName: UrbanWarriorRig:Wrist_R
+      position: {x: -0.15499476, y: 0.03388597, z: -0.01380454}
+      rotation: {x: 0.0015707249, y: -0.027131028, z: 0.016120736, w: 0.99950075}
+      scale: {x: 1.0000007, y: 1.0000004, z: 0.9999998}
+    - name: UrbanWarriorRig:IndexFinger2_R
+      parentName: UrbanWarriorRig:IndexFinger1_R
+      position: {x: -0.062203493, y: 2.842171e-16, z: 1.4210854e-16}
+      rotation: {x: 0.00000006798649, y: -0.0394412, z: 0.000000013831584, w: 0.9992219}
+      scale: {x: 1.000001, y: 1.0000005, z: 1.0000005}
+    - name: UrbanWarriorRig:IndexFinger3_R
+      parentName: UrbanWarriorRig:IndexFinger2_R
+      position: {x: -0.033882868, y: -1.4210854e-16, z: -6.0396133e-16}
+      rotation: {x: -0.000000018879568, y: -0.026176855, z: -0.000000032144406, w: 0.9996574}
+      scale: {x: 0.9999997, y: 0.9999998, z: 0.9999997}
+    - name: UrbanWarriorRig:IndexFinger4_R
+      parentName: UrbanWarriorRig:IndexFinger3_R
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -3.88578e-16, w: 1}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1.0000001}
+    - name: UrbanWarriorRig:Cup_R
+      parentName: UrbanWarriorRig:Wrist_R
+      position: {x: -0.01198684, y: -0.011568027, z: -0.0027959251}
+      rotation: {x: 0.12265884, y: 0.002074696, z: 0.018336857, w: 0.9922774}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000001}
+    - name: UrbanWarriorRig:PinkyFinger1_R
+      parentName: UrbanWarriorRig:Cup_R
+      position: {x: -0.11417517, y: -0.05001463, z: 0.00010232931}
+      rotation: {x: -0.11230108, y: -0.010154667, z: 0.01847655, w: 0.9934505}
+      scale: {x: 1.0000005, y: 1.0000006, z: 0.9999997}
+    - name: UrbanWarriorRig:PinkyFinger2_R
+      parentName: UrbanWarriorRig:PinkyFinger1_R
+      position: {x: -0.056116022, y: 2.842171e-16, z: 1.4210854e-16}
+      rotation: {x: -0.000000029802315, y: -0.03898254, z: 0.00000042747695, w: 0.99923986}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000004}
+    - name: UrbanWarriorRig:PinkyFinger3_R
+      parentName: UrbanWarriorRig:PinkyFinger2_R
+      position: {x: -0.029307172, y: -4.2632563e-16, z: 2.842171e-16}
+      rotation: {x: 0.00000008477143, y: -0.040639512, z: 0.0000005168393, w: 0.9991739}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: UrbanWarriorRig:PinkyFinger4_R
+      parentName: UrbanWarriorRig:PinkyFinger3_R
+      position: {x: -0.028142326, y: 0, z: 0}
+      rotation: {x: -0, y: -0.000000003725289, z: -2.2204453e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:RingFinger1_R
+      parentName: UrbanWarriorRig:Cup_R
+      position: {x: -0.12732972, y: -0.0168178, z: 0.0012858324}
+      rotation: {x: -0.11032997, y: -0.022156313, z: 0.006532422, w: 0.9936266}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:RingFinger2_R
+      parentName: UrbanWarriorRig:RingFinger1_R
+      position: {x: -0.062735625, y: 0, z: 4.973799e-16}
+      rotation: {x: -0.000015430145, y: -0.037999418, z: 0.000052096297, w: 0.99927783}
+      scale: {x: 1.0000006, y: 1.0000004, z: 0.9999998}
+    - name: UrbanWarriorRig:RingFinger3_R
+      parentName: UrbanWarriorRig:RingFinger2_R
+      position: {x: -0.038929045, y: 1.4210854e-16, z: -8.881784e-16}
+      rotation: {x: -0.0000117840955, y: -0.039531693, z: -0.00006910691, w: 0.9992184}
+      scale: {x: 1.0000006, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:RingFinger4_R
+      parentName: UrbanWarriorRig:RingFinger3_R
+      position: {x: -0.03, y: 0, z: 0}
+      rotation: {x: -9.094945e-13, y: -0, z: 2.9558571e-12, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:Neck_M
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.27265579, y: -4.973799e-16, z: 3.1974422e-16}
+      rotation: {x: 0.0000000027361917, y: -0.00000005346741, z: 0.19322221, w: -0.98115504}
+      scale: {x: 1.0000008, y: 1.0000004, z: 1.0000012}
+    - name: UrbanWarriorRig:NeckPart1_M
+      parentName: UrbanWarriorRig:Neck_M
+      position: {x: -0.060666665, y: 9.237055e-16, z: 2.0428103e-16}
+      rotation: {x: -0.000000029802326, y: -0.000000029802326, z: -0.00000005960465, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999997}
+    - name: UrbanWarriorRig:NeckPart2_M
+      parentName: UrbanWarriorRig:NeckPart1_M
+      position: {x: -0.060666665, y: 2.842171e-16, z: 5.3290704e-17}
+      rotation: {x: 0.000000029802326, y: 0.000000029802326, z: 0.00000005960465, w: 1}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: UrbanWarriorRig:Head_M
+      parentName: UrbanWarriorRig:NeckPart2_M
+      position: {x: -0.060666665, y: 2.842171e-16, z: 0}
+      rotation: {x: 0.017765092, y: 0.008143496, z: 0.15719764, w: 0.98737377}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:pipe_Jnt
+      parentName: UrbanWarriorRig:Head_M
+      position: {x: 0.05901469, y: 0.09106411, z: 0.009422536}
+      rotation: {x: 0.48103866, y: -0.5312793, z: -0.65897536, w: 0.22824442}
+      scale: {x: 1.0000007, y: 1.0000005, z: 1.0000007}
+    - name: UrbanWarriorRig:pipeTip_Jnt
+      parentName: UrbanWarriorRig:pipe_Jnt
+      position: {x: -0.101129055, y: 1.3322676e-17, z: 8.881784e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:HeadEnd_M
+      parentName: UrbanWarriorRig:Head_M
+      position: {x: -0.12, y: 8.940694e-10, z: 0.0000000012005089}
+      rotation: {x: -0.01851905, y: -0.006241923, z: -0.053127926, w: 0.99839646}
+      scale: {x: 1.0000048, y: 1.0000051, z: 1.0000042}
+    - name: UrbanWarriorRig:hair_A_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: -0.028291976, y: -0.05406297, z: -0.03776422}
+      rotation: {x: -0.6445814, y: -0.2907143, z: 0.100726515, w: -0.6998959}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: UrbanWarriorRig:hair_A_02_Jnt
+      parentName: UrbanWarriorRig:hair_A_01_Jnt
+      position: {x: -0.026976034, y: -2.842171e-16, z: -1.6957542e-10}
+      rotation: {x: -0.0118249925, y: 0.012679306, z: -0.18285914, w: 0.9829863}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: UrbanWarriorRig:hair_A_03_Jnt
+      parentName: UrbanWarriorRig:hair_A_02_Jnt
+      position: {x: -0.026656337, y: 0, z: -1.1801944e-10}
+      rotation: {x: 0.06540933, y: -0.048367064, z: 0.00039332153, w: 0.99668556}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000006}
+    - name: UrbanWarriorRig:hair_A_04_Jnt
+      parentName: UrbanWarriorRig:hair_A_03_Jnt
+      position: {x: -0.024256606, y: 0, z: -1.0750924e-10}
+      rotation: {x: 0.05463961, y: -0.047991358, z: 0.083280854, w: 0.99386907}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1.0000007}
+    - name: UrbanWarriorRig:hair_A_05_Jnt
+      parentName: UrbanWarriorRig:hair_A_04_Jnt
+      position: {x: -0.017770773, y: 0, z: -9.5376436e-11}
+      rotation: {x: 0.016569097, y: -0.018951481, z: 0.04801944, w: 0.99852914}
+      scale: {x: 1, y: 1.0000011, z: 1.000001}
+    - name: UrbanWarriorRig:hair_A_06_Jnt
+      parentName: UrbanWarriorRig:hair_A_05_Jnt
+      position: {x: -0.012782435, y: 7.105427e-16, z: -7.46261e-11}
+      rotation: {x: -0, y: -0, z: -0.0000000030850045, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 1.0000004}
+    - name: UrbanWarriorRig:hair_B_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: -0.027438095, y: 0.00036715667, z: 0.08105051}
+      rotation: {x: -0.68760633, y: -0.16491649, z: 0.5414349, w: -0.45480582}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:hair_B_02_Jnt
+      parentName: UrbanWarriorRig:hair_B_01_Jnt
+      position: {x: -0.059500888, y: -2.842171e-16, z: -1.9810485e-10}
+      rotation: {x: -0.27079257, y: 0.16552295, z: 0.08087432, w: 0.9448455}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: UrbanWarriorRig:hair_B_03_Jnt
+      parentName: UrbanWarriorRig:hair_B_02_Jnt
+      position: {x: -0.05515021, y: 2.842171e-16, z: -2.4341942e-10}
+      rotation: {x: -0, y: -0, z: -0.0000000037252894, w: 1}
+      scale: {x: 1, y: 1.0000002, z: 1.0000005}
+    - name: UrbanWarriorRig:hair_C_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.027139388, y: 0.005825428, z: 0.119713545}
+      rotation: {x: -0.63210046, y: -0.31693685, z: 0.53703785, w: -0.4599896}
+      scale: {x: 0.9999998, y: 0.99999946, z: 0.9999996}
+    - name: UrbanWarriorRig:hair_C_02_Jnt
+      parentName: UrbanWarriorRig:hair_C_01_Jnt
+      position: {x: -0.026546024, y: 0, z: -4.768651e-11}
+      rotation: {x: -0.13428204, y: 0.04310247, z: 0.06637027, w: 0.9877781}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_C_03_Jnt
+      parentName: UrbanWarriorRig:hair_C_02_Jnt
+      position: {x: -0.021763703, y: -5.684342e-16, z: -5.979686e-11}
+      rotation: {x: -0.13323765, y: 0.063476756, z: 0.06613737, w: 0.9868355}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_C_04_Jnt
+      parentName: UrbanWarriorRig:hair_C_03_Jnt
+      position: {x: -0.021172995, y: -5.684342e-16, z: -7.72205e-11}
+      rotation: {x: 0.000000014901158, y: -0, z: -9.3132235e-10, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000002}
+    - name: UrbanWarriorRig:hair_D_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.053016156, y: 0.0720788, z: 0.06674637}
+      rotation: {x: 0.20786804, y: -0.67586315, z: -0.5881719, w: -0.39249694}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.9999997}
+    - name: UrbanWarriorRig:hair_D_02_Jnt
+      parentName: UrbanWarriorRig:hair_D_01_Jnt
+      position: {x: -0.06942856, y: 0, z: -3.2685687e-10}
+      rotation: {x: 0.31861076, y: -0.26880848, z: 0.015318286, w: 0.90884244}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:hair_D_03_Jnt
+      parentName: UrbanWarriorRig:hair_D_02_Jnt
+      position: {x: -0.0664133, y: 1.4210854e-16, z: -3.2540867e-10}
+      rotation: {x: -0, y: 0.000000014901156, z: -0, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair_E_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.03601924, y: 0.11932601, z: -0.01802112}
+      rotation: {x: 0.2855212, y: -0.64689845, z: -0.6984315, w: 0.11042414}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999998}
+    - name: UrbanWarriorRig:hair_E_02_Jnt
+      parentName: UrbanWarriorRig:hair_E_01_Jnt
+      position: {x: -0.032568064, y: 0, z: -2.3456692e-10}
+      rotation: {x: 0.040867254, y: -0.13020562, z: -0.04484131, w: 0.98962903}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:hair_E_03_Jnt
+      parentName: UrbanWarriorRig:hair_E_02_Jnt
+      position: {x: -0.03310383, y: 2.842171e-16, z: -2.3173896e-10}
+      rotation: {x: 0.05660032, y: -0.11959822, z: -0.09166878, w: 0.98695976}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:hair_E_04_Jnt
+      parentName: UrbanWarriorRig:hair_E_03_Jnt
+      position: {x: -0.028171126, y: 0, z: -1.8060163e-10}
+      rotation: {x: 0.06932109, y: -0.102222204, z: -0.060759734, w: 0.9904815}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_E_05_Jnt
+      parentName: UrbanWarriorRig:hair_E_04_Jnt
+      position: {x: -0.018298978, y: -5.684342e-16, z: -1.07941885e-10}
+      rotation: {x: 0.04342253, y: -0.05177817, z: -0.04057972, w: 0.9968886}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:hair_E_06_Jnt
+      parentName: UrbanWarriorRig:hair_E_05_Jnt
+      position: {x: -0.013869095, y: 0, z: -7.640956e-11}
+      rotation: {x: 0.021424955, y: -0.02220411, z: -0.028985206, w: 0.9991036}
+      scale: {x: 0.9999998, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:hair_E_07_Jnt
+      parentName: UrbanWarriorRig:hair_E_06_Jnt
+      position: {x: -0.012437259, y: -5.684342e-16, z: -6.4789396e-11}
+      rotation: {x: -0.00031842277, y: 0.00029322677, z: -0.030563913, w: 0.99953276}
+      scale: {x: 1.0000005, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:hair_E_08_Jnt
+      parentName: UrbanWarriorRig:hair_E_07_Jnt
+      position: {x: -0.0084227845, y: 5.684342e-16, z: -4.1053543e-11}
+      rotation: {x: -0, y: -0, z: 2.3786825e-10, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair_F_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.044023998, y: 0.0929533, z: -0.04532581}
+      rotation: {x: 0.023335772, y: -0.70672166, z: -0.6096152, w: 0.35828656}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.9999997}
+    - name: UrbanWarriorRig:hair_F_02_Jnt
+      parentName: UrbanWarriorRig:hair_F_01_Jnt
+      position: {x: -0.023460185, y: 7.105427e-17, z: -1.535335e-10}
+      rotation: {x: -0.07464139, y: -0.11220614, z: 0.08773562, w: 0.98698574}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_F_03_Jnt
+      parentName: UrbanWarriorRig:hair_F_02_Jnt
+      position: {x: -0.019243492, y: 4.2632563e-16, z: -1.1187524e-10}
+      rotation: {x: -0.09969246, y: -0.110239506, z: 0.058847286, w: 0.9871401}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair_F_04_Jnt
+      parentName: UrbanWarriorRig:hair_F_03_Jnt
+      position: {x: -0.013482723, y: -4.2632563e-16, z: -7.0365117e-11}
+      rotation: {x: -0, y: -0, z: 0.0000000027939668, w: 1}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:hair_G_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.061953686, y: -0.0064973817, z: -0.11559797}
+      rotation: {x: -0.4604819, y: -0.5366158, z: -0.69743407, w: -0.116557464}
+      scale: {x: 0.9999998, y: 0.9999996, z: 0.9999997}
+    - name: UrbanWarriorRig:hair_G_02_Jnt
+      parentName: UrbanWarriorRig:hair_G_01_Jnt
+      position: {x: -0.03541123, y: 4.2632563e-16, z: -2.2580338e-10}
+      rotation: {x: 0.027825046, y: 0.043957565, z: 0.020707866, w: 0.9984312}
+      scale: {x: 1.0000005, y: 1.0000006, z: 1}
+    - name: UrbanWarriorRig:hair_G_03_Jnt
+      parentName: UrbanWarriorRig:hair_G_02_Jnt
+      position: {x: -0.030276617, y: 1.4210854e-16, z: -1.8805892e-10}
+      rotation: {x: 0.07955144, y: 0.11534944, z: 0.018491449, w: 0.9899617}
+      scale: {x: 0.9999996, y: 0.9999997, z: 1}
+    - name: UrbanWarriorRig:hair_G_04_Jnt
+      parentName: UrbanWarriorRig:hair_G_03_Jnt
+      position: {x: -0.02944766, y: -4.2632563e-16, z: -1.7825684e-10}
+      rotation: {x: -0, y: -0, z: 9.3132213e-10, w: 1}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: UrbanWarriorRig:hair_H_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.006512557, y: -0.024030752, z: -0.090102024}
+      rotation: {x: 0.6079804, y: -0.3610539, z: 0.467614, w: 0.5304123}
+      scale: {x: 1.0000005, y: 0.9999998, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_H_02_Jnt
+      parentName: UrbanWarriorRig:hair_H_01_Jnt
+      position: {x: -0.029361429, y: -5.684342e-16, z: -6.722331e-11}
+      rotation: {x: -0.19027598, y: -0.07678833, z: -0.069654115, w: 0.9762412}
+      scale: {x: 1.0000002, y: 1, z: 1.0000005}
+    - name: UrbanWarriorRig:hair_H_03_Jnt
+      parentName: UrbanWarriorRig:hair_H_02_Jnt
+      position: {x: -0.021291267, y: 2.842171e-16, z: -6.968513e-11}
+      rotation: {x: 0.000000014901156, y: -0, z: 0.000000013038512, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: UrbanWarriorRig:hair_J_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.065299176, y: -0.06424605, z: -0.10135129}
+      rotation: {x: -0.5123955, y: -0.48728925, z: -0.7051842, w: -0.05210831}
+      scale: {x: 0.9999997, y: 0.9999997, z: 0.9999998}
+    - name: UrbanWarriorRig:hair_J_02_Jnt
+      parentName: UrbanWarriorRig:hair_J_01_Jnt
+      position: {x: -0.021930123, y: -1.4210854e-16, z: -1.2101779e-10}
+      rotation: {x: -0.09438165, y: -0.11873562, z: -0.064332075, w: 0.98633426}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_J_03_Jnt
+      parentName: UrbanWarriorRig:hair_J_02_Jnt
+      position: {x: -0.018662576, y: 0, z: -1.142493e-10}
+      rotation: {x: 0.0000000074505797, y: -0, z: 0.0000000074505797, w: 1}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: UrbanWarriorRig:hair_K_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.13429743, y: -0.093584, z: -0.08233395}
+      rotation: {x: 0.0641077, y: -0.7041948, z: -0.5100497, w: 0.4897441}
+      scale: {x: 0.9999996, y: 0.99999994, z: 0.9999996}
+    - name: UrbanWarriorRig:hair_K_02_Jnt
+      parentName: UrbanWarriorRig:hair_K_01_Jnt
+      position: {x: -0.047489867, y: -2.1316282e-16, z: -2.763892e-10}
+      rotation: {x: 0.05567006, y: 0.059741177, z: 0.07550864, w: 0.9937959}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_K_03_Jnt
+      parentName: UrbanWarriorRig:hair_K_02_Jnt
+      position: {x: -0.039411638, y: 0, z: -1.990412e-10}
+      rotation: {x: -0, y: 0.000000003725289, z: 0.000000008847561, w: 1}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:hair_L_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.15940073, y: -0.11072275, z: -0.023752386}
+      rotation: {x: -0.100957826, y: -0.69986266, z: -0.7030126, w: 0.07598151}
+      scale: {x: 0.99999994, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:hair_L_02_Jnt
+      parentName: UrbanWarriorRig:hair_L_01_Jnt
+      position: {x: -0.016808065, y: 1.0658141e-16, z: -1.2130819e-10}
+      rotation: {x: -0.033062216, y: -0.1579424, z: -0.043977823, w: 0.9859144}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:hair_L_03_Jnt
+      parentName: UrbanWarriorRig:hair_L_02_Jnt
+      position: {x: -0.014335212, y: 0, z: -1.0541093e-10}
+      rotation: {x: 0.000000003725288, y: -0, z: -0.000000001862644, w: 1}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000001}
+    - name: UrbanWarriorRig:hair_M_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.13461314, y: -0.07905883, z: 0.09068247}
+      rotation: {x: 0.26952595, y: -0.6537246, z: -0.70458806, w: -0.059630107}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.99999946}
+    - name: UrbanWarriorRig:hair_M_02_Jnt
+      parentName: UrbanWarriorRig:hair_M_01_Jnt
+      position: {x: -0.039224412, y: 1.4210854e-16, z: -2.5982586e-10}
+      rotation: {x: -0.027556574, y: 0.028189396, z: -0.29391328, w: 0.9550189}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:hair_M_03_Jnt
+      parentName: UrbanWarriorRig:hair_M_02_Jnt
+      position: {x: -0.032833982, y: -8.5265126e-16, z: -1.168948e-10}
+      rotation: {x: 0.0000000018626443, y: -0.0000000018626443, z: 0.0000000059371787, w: 1}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: UrbanWarriorRig:hair_N_01_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.12821406, y: -0.04726899, z: 0.11088477}
+      rotation: {x: 0.09413007, y: -0.7008137, z: -0.670115, w: -0.22571164}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.9999996}
+    - name: UrbanWarriorRig:hair_N_02_Jnt
+      parentName: UrbanWarriorRig:hair_N_01_Jnt
+      position: {x: -0.020475736, y: 1.4210854e-16, z: -1.3680625e-10}
+      rotation: {x: -0.0058415565, y: 0.0070506027, z: -0.23133773, w: 0.9728305}
+      scale: {x: 0.99999994, y: 0.9999998, z: 1}
+    - name: UrbanWarriorRig:hair_N_03_Jnt
+      parentName: UrbanWarriorRig:hair_N_02_Jnt
+      position: {x: -0.012659648, y: -2.842171e-16, z: -5.6741296e-11}
+      rotation: {x: -0, y: -0, z: -3.092281e-10, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:hairBun_1_Jnt
+      parentName: UrbanWarriorRig:HeadEnd_M
+      position: {x: 0.034873612, y: -0.040203962, z: -0.05550341}
+      rotation: {x: 0.6993977, y: 0.104128405, z: 0.45916352, w: 0.5377444}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: UrbanWarriorRig:hairBun_2_Jnt
+      parentName: UrbanWarriorRig:hairBun_1_Jnt
+      position: {x: -0.04810752, y: -2.1316282e-16, z: -3.0388236e-10}
+      rotation: {x: -0.041419525, y: -0.056700695, z: 0.071720615, w: 0.9949501}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000005}
+    - name: UrbanWarriorRig:hairBun_3_Jnt
+      parentName: UrbanWarriorRig:hairBun_2_Jnt
+      position: {x: -0.09307643, y: -5.684342e-16, z: -5.291176e-10}
+      rotation: {x: -0, y: -0, z: 0.0000000034924583, w: 1}
+      scale: {x: 0.9999998, y: 1, z: 0.9999996}
+    - name: UrbanWarriorRig:ribbon_B_00_Jnt
+      parentName: UrbanWarriorRig:hairBun_1_Jnt
+      position: {x: -0.026100306, y: 0.004445968, z: 0.022505227}
+      rotation: {x: -0.33195475, y: -0.44504097, z: 0.105171904, w: -0.8250354}
+      scale: {x: 1.0000002, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:ribbon_B_01_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_00_Jnt
+      position: {x: -0.0139609985, y: 0, z: 0}
+      rotation: {x: 0.012168944, y: 0.011674732, z: -0.03284116, w: 0.99931836}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:ribbon_B_02_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_01_Jnt
+      position: {x: -0.021686332, y: 0, z: 0}
+      rotation: {x: 0.0010277778, y: 0.004419893, z: -0.044250727, w: 0.9990102}
+      scale: {x: 1.0000006, y: 1.0000005, z: 1.0000005}
+    - name: UrbanWarriorRig:ribbon_B_03_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_02_Jnt
+      position: {x: -0.028537711, y: 0, z: 0}
+      rotation: {x: -0.0018340943, y: -0.0068990877, z: -0.045357507, w: 0.9989453}
+      scale: {x: 0.9999996, y: 0.9999997, z: 0.9999997}
+    - name: UrbanWarriorRig:ribbon_B_04_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_03_Jnt
+      position: {x: -0.030259993, y: 0, z: 0}
+      rotation: {x: -0.00054013723, y: -0.006484776, z: -0.029104616, w: 0.9995552}
+      scale: {x: 0.99999994, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:ribbon_B_05_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_04_Jnt
+      position: {x: -0.029949293, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:ribbon_B_05a_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_05_Jnt
+      position: {x: -0.000028995975, y: -0.0000006623742, z: -0.000008739137}
+      rotation: {x: 0.00015805662, y: 0.0014813542, z: -0.009610593, w: 0.99995273}
+      scale: {x: 1.0000002, y: 0.99999994, z: 1.0000007}
+    - name: UrbanWarriorRig:ribbon_B_06_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_05a_Jnt
+      position: {x: -0.03306156, y: 0.03148495, z: 0.0043090777}
+      rotation: {x: -0.029881507, y: 0.063858435, z: -0.37400332, w: 0.92474365}
+      scale: {x: 0.9999997, y: 0.9999998, z: 1}
+    - name: UrbanWarriorRig:ribbon_B_07_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_06_Jnt
+      position: {x: -0.053075645, y: 0, z: 0}
+      rotation: {x: -0.00051108, y: 0.0014883727, z: -0.0055014826, w: 0.99998367}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_B_08_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_07_Jnt
+      position: {x: -0.047388032, y: 0, z: 0}
+      rotation: {x: -0.00023794174, y: 0.0007318183, z: -0.002435185, w: 0.9999967}
+      scale: {x: 0.99999994, y: 0.9999997, z: 0.9999996}
+    - name: UrbanWarriorRig:ribbon_B_09_Jnt
+      parentName: UrbanWarriorRig:ribbon_B_08_Jnt
+      position: {x: -0.05221551, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:ribbon_A_00_Jnt
+      parentName: UrbanWarriorRig:hairBun_1_Jnt
+      position: {x: -0.029761178, y: -0.0072046095, z: 0.022380702}
+      rotation: {x: -0.3935476, y: -0.593908, z: -0.019197162, w: -0.7014451}
+      scale: {x: 1.0000011, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:ribbon_A_01_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_00_Jnt
+      position: {x: -0.016487492, y: 0, z: 0}
+      rotation: {x: 0.0014771372, y: 0.0015257299, z: 0.0035839714, w: 0.99999136}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:ribbon_A_02_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_01_Jnt
+      position: {x: -0.01746147, y: 0, z: 0}
+      rotation: {x: 0.0007568523, y: 0.00089384615, z: 0.0038500652, w: 0.99999195}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: UrbanWarriorRig:ribbon_A_03_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_02_Jnt
+      position: {x: -0.016751012, y: 0, z: 0}
+      rotation: {x: 0.000097349286, y: 0.000093355775, z: 0.0057582743, w: 0.9999835}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_04_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_03_Jnt
+      position: {x: -0.030583093, y: 0, z: 0}
+      rotation: {x: -0.0012415795, y: -0.0019056646, z: 0.008768368, w: 0.999959}
+      scale: {x: 1.0000005, y: 1.0000004, z: 1}
+    - name: UrbanWarriorRig:ribbon_A_05_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_04_Jnt
+      position: {x: -0.035137787, y: 0, z: 0}
+      rotation: {x: -0.0031891912, y: -0.0048579127, z: 0.010585081, w: 0.9999271}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_06_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_05_Jnt
+      position: {x: -0.036412004, y: 0, z: 0}
+      rotation: {x: -0.0056843124, y: -0.007906996, z: 0.011714645, w: 0.999884}
+      scale: {x: 0.9999996, y: 0.9999992, z: 0.9999997}
+    - name: UrbanWarriorRig:ribbon_A_07_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_06_Jnt
+      position: {x: -0.035906337, y: 0, z: 0}
+      rotation: {x: -0.010195263, y: -0.012080468, z: 0.012718122, w: 0.9997942}
+      scale: {x: 0.9999997, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:ribbon_A_08_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_07_Jnt
+      position: {x: -0.05760762, y: 0, z: 0}
+      rotation: {x: -0.010497604, y: -0.011844724, z: 0.0066914484, w: 0.99985236}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: UrbanWarriorRig:ribbon_A_09_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_08_Jnt
+      position: {x: -0.044022627, y: 0, z: 0}
+      rotation: {x: -0.01571479, y: -0.009969711, z: -0.0018664561, w: 0.99982506}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_10_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_09_Jnt
+      position: {x: -0.059578557, y: 0, z: 0}
+      rotation: {x: -0.0062430575, y: -0.21432573, z: -0.62808543, w: 0.74802023}
+      scale: {x: 0.999999, y: 1, z: 1.0000008}
+    - name: UrbanWarriorRig:ribbon_A_10a_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_10_Jnt
+      position: {x: -0.17123215, y: -0.25731686, z: 0.035267558}
+      rotation: {x: 0.00000007217746, y: -0.0012736908, z: -0.005865746, w: 0.999982}
+      scale: {x: 1.0000012, y: 0.99999887, z: 0.9999997}
+    - name: UrbanWarriorRig:ribbon_A_11_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_10a_Jnt
+      position: {x: -0.069263056, y: 0, z: 0}
+      rotation: {x: 0.005478143, y: -0.0034487247, z: -0.0066957315, w: 0.9999567}
+      scale: {x: 1.0000001, y: 0.9999998, z: 0.9999992}
+    - name: UrbanWarriorRig:ribbon_A_12_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_11_Jnt
+      position: {x: -0.05413442, y: 0, z: 0}
+      rotation: {x: -0.000000059604645, y: -0.0044084936, z: -0.0006528497, w: 0.9999901}
+      scale: {x: 0.99999994, y: 0.9999997, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_13_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_12_Jnt
+      position: {x: -0.06056151, y: -0.000000011886049, z: 0.000000024323706}
+      rotation: {x: 0.0073569715, y: -0.0044493526, z: 0.0067405254, w: 0.99994034}
+      scale: {x: 1.0000004, y: 1.0000006, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_14_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_13_Jnt
+      position: {x: -0.06443084, y: 0, z: 0}
+      rotation: {x: -0.042228047, y: 0.14339592, z: -0.3698535, w: -0.91698575}
+      scale: {x: 0.9999996, y: 0.9999992, z: 0.99999946}
+    - name: UrbanWarriorRig:ribbon_A_14a_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_14_Jnt
+      position: {x: -0.12446961, y: 0.13064735, z: 0.025940852}
+      rotation: {x: 0.0000001378356, y: -0.0009821792, z: 0.0029251392, w: 0.99999523}
+      scale: {x: 0.999999, y: 1.0000018, z: 0.9999997}
+    - name: UrbanWarriorRig:ribbon_A_15_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_14a_Jnt
+      position: {x: -0.104106516, y: 0, z: 0}
+      rotation: {x: -0.00048127765, y: -0.0017170457, z: 0.0051069255, w: 0.99998534}
+      scale: {x: 1.0000005, y: 0.9999996, z: 1.0000001}
+    - name: UrbanWarriorRig:ribbon_A_16_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_15_Jnt
+      position: {x: -0.06230533, y: 0, z: 0}
+      rotation: {x: 0.000000014901161, y: -0.0014889091, z: 0.0044210553, w: 0.99998915}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1}
+    - name: UrbanWarriorRig:ribbon_A_17_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_16_Jnt
+      position: {x: -0.09544734, y: -0.000000078439605, z: -0.00000012254372}
+      rotation: {x: -0.000000029802322, y: -0.00041404366, z: 0.0012289286, w: 0.9999992}
+      scale: {x: 0.99999887, y: 1.0000008, z: 1.0000005}
+    - name: UrbanWarriorRig:ribbon_A_18_Jnt
+      parentName: UrbanWarriorRig:ribbon_A_17_Jnt
+      position: {x: -0.072200574, y: -0.000000105533495, z: -0.00000016487166}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:face_Jnt
+      parentName: UrbanWarriorRig:Head_M
+      position: {x: 0.04112961, y: -0.0006538971, z: -2.1316282e-16}
+      rotation: {x: 0.48501477, y: -0.5319007, z: -0.4602538, w: -0.51962364}
+      scale: {x: 0.9999985, y: 0.9999985, z: 0.9999986}
+    - name: UrbanWarriorRig:face_upper_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: 3.375078e-16, y: 0.011029654, z: 0.0033700285}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: UrbanWarriorRig:teeth_upper_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: -0.0001329921, y: -0.034228504, z: 0.087540574}
+      rotation: {x: 0.09868825, y: -0, z: 0.000000029802315, w: 0.9951184}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: UrbanWarriorRig:brow_r_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: 0.063722305, y: 0.052374933, z: 0.07369921}
+      rotation: {x: -0.000000074505806, y: 0.14780939, z: -0.000000029802322, w: 0.9890159}
+      scale: {x: 0.99999994, y: 1, z: 1.0000002}
+    - name: UrbanWarriorRig:brow_inner_r_Jnt
+      parentName: UrbanWarriorRig:brow_r_Jnt
+      position: {x: -0.057110123, y: -0.010747528, z: 0.013031833}
+      rotation: {x: 0.000000074505806, y: -0.14780939, z: 0.000000029802322, w: 0.9890159}
+      scale: {x: 1.0000004, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:brow_corrugator_r_Jnt
+      parentName: UrbanWarriorRig:brow_inner_r_Jnt
+      position: {x: 0.00776744, y: 0.008632507, z: -0.0009984112}
+      rotation: {x: -0.000000028353535, y: 0.000000014901163, z: -0.13052619, w: 0.9914449}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: UrbanWarriorRig:brow_peak_r_Jnt
+      parentName: UrbanWarriorRig:brow_r_Jnt
+      position: {x: -0.020458842, y: 0.00078308105, z: 0.012246707}
+      rotation: {x: 0.0000000161495, y: 0.06975654, z: -0.000000022538172, w: 0.997564}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:brow_l_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: -0.063722305, y: 0.052374933, z: 0.07369921}
+      rotation: {x: -0, y: 0.9890159, z: -0.000000029802326, w: 0.14780942}
+      scale: {x: 1.0000006, y: 1, z: 1.0000005}
+    - name: UrbanWarriorRig:brow_inner_l_Jnt
+      parentName: UrbanWarriorRig:brow_l_Jnt
+      position: {x: -0.057110123, y: -0.010747528, z: -0.013031833}
+      rotation: {x: -0.000000029802326, y: 0.14780942, z: -0, w: 0.9890159}
+      scale: {x: 1.0000001, y: 1, z: 1.0000004}
+    - name: UrbanWarriorRig:brow_corrugator_l_Jnt
+      parentName: UrbanWarriorRig:brow_inner_l_Jnt
+      position: {x: 0.00776744, y: 0.008632507, z: 0.0009984112}
+      rotation: {x: 0.00000006088778, y: -0, z: -0.1305262, w: 0.99144495}
+      scale: {x: 1.000001, y: 1.0000004, z: 1.0000002}
+    - name: UrbanWarriorRig:brow_peak_l_Jnt
+      parentName: UrbanWarriorRig:brow_l_Jnt
+      position: {x: -0.020458842, y: 0.00078308105, z: -0.012246707}
+      rotation: {x: 0.00000002544898, y: -0.069756456, z: -0.00000003183469, w: 0.997564}
+      scale: {x: 1.0000004, y: 1, z: 1.0000006}
+    - name: UrbanWarriorRig:nose_bridge_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: 0.00019507717, y: 0.023272756, z: 0.09534362}
+      rotation: {x: -0.1736482, y: 0.000000014901163, z: -0.00000005960465, w: 0.9848078}
+      scale: {x: 1, y: 1.0000002, z: 1.0000002}
+    - name: UrbanWarriorRig:nose_Jnt
+      parentName: UrbanWarriorRig:nose_bridge_Jnt
+      position: {x: -3.5527136e-17, y: -0.022312338, z: 0.0020394763}
+      rotation: {x: 0.20138471, y: 0.000000001771097, z: -0.0000000020373205, w: 0.9795122}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:sneer_r_Jnt
+      parentName: UrbanWarriorRig:nose_Jnt
+      position: {x: 0.006, y: 5.684342e-16, z: -1.4210854e-16}
+      rotation: {x: -0.000000016943996, y: 0.9906588, z: -0.13636392, w: -0.00000003256312}
+      scale: {x: 1.0000002, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:nostril_r_Jnt
+      parentName: UrbanWarriorRig:sneer_r_Jnt
+      position: {x: -0.00271, y: -0.00871, z: -0.00259}
+      rotation: {x: 0, y: -0, z: -0.10872808, w: 0.99407154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:sneer_l_Jnt
+      parentName: UrbanWarriorRig:nose_Jnt
+      position: {x: -0.006, y: 8.5265126e-16, z: -1.4210854e-16}
+      rotation: {x: -0.13636522, y: 0.000000031721576, z: -0.0000000128464634, w: 0.99065864}
+      scale: {x: 1, y: 0.9999998, z: 0.9999998}
+    - name: UrbanWarriorRig:nostril_l_Jnt
+      parentName: UrbanWarriorRig:sneer_l_Jnt
+      position: {x: -0.00271, y: -0.00871, z: 0.00259}
+      rotation: {x: 0, y: -0, z: -0.10872808, w: 0.99407154}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:eye_socket_r_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: 0.03909368, y: 0.036844995, z: 0.06976323}
+      rotation: {x: -0, y: 1, z: -0, w: 0}
+      scale: {x: 1.0000001, y: 1, z: 1.0000002}
+    - name: UrbanWarriorRig:eye_r_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 8.8817837e-17, y: 0, z: -7.105427e-17}
+      rotation: {x: 6.123234e-17, y: 1, z: -6.123234e-17, w: -6.123234e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lid_upper_r_00_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.011413121, y: -0.004037014, z: -0.009186735}
+      rotation: {x: -0.057879567, y: -0.89381325, z: 0.12088935, w: -0.42794108}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000007}
+    - name: UrbanWarriorRig:lid_upper_r_01_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.010390149, y: -0.0025156732, z: -0.011303252}
+      rotation: {x: -0.029458862, y: -0.92865324, z: 0.07557788, w: -0.36197132}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_upper_r_02_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.008559646, y: -0.00058834575, z: -0.013978984}
+      rotation: {x: -0.004866094, y: -0.9623476, z: 0.017265381, w: -0.27122936}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_upper_r_03_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.0052589285, y: 0.0013736625, z: -0.016687805}
+      rotation: {x: 0.005954981, y: -0.9876145, z: -0.038708806, w: -0.15193358}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_upper_r_04_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.0006199498, y: 0.00233372, z: -0.01796017}
+      rotation: {x: 0.0011131018, y: -0.99776757, z: -0.06451492, w: -0.01721534}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000004}
+    - name: UrbanWarriorRig:lid_upper_r_05_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.0044061313, y: 0.0018853504, z: -0.01704428}
+      rotation: {x: -0.0067260563, y: -0.9906002, z: -0.052892625, w: 0.12596995}
+      scale: {x: 1.0000001, y: 0.9999997, z: 1}
+    - name: UrbanWarriorRig:lid_upper_r_06_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.008405819, y: 0.00029957015, z: -0.014383227}
+      rotation: {x: -0.002349615, y: -0.9651996, z: -0.008677468, w: 0.26135987}
+      scale: {x: 1.0000006, y: 0.9999999, z: 0.9999998}
+    - name: UrbanWarriorRig:lid_upper_r_07_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.011302771, y: -0.0018081879, z: -0.0110192}
+      rotation: {x: 0.022145092, y: -0.91993254, z: 0.052516863, w: 0.38791215}
+      scale: {x: 1.0000005, y: 0.9999999, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_upper_r_08_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.012981475, y: -0.004109989, z: -0.0074943337}
+      rotation: {x: 0.066706054, y: -0.8582766, z: 0.1155341, w: 0.49554354}
+      scale: {x: 1.0000002, y: 1, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_upper_r_09_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.013607715, y: -0.0059870873, z: -0.004694291}
+      rotation: {x: 0.11365911, y: -0.7985206, z: 0.15944138, w: 0.5692319}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_lower_r_00_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.011413123, y: -0.004037018, z: -0.00918673}
+      rotation: {x: -0.057879586, y: -0.8938132, z: 0.12088949, w: -0.4279412}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000005}
+    - name: UrbanWarriorRig:lid_lower_r_01_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.009521578, y: -0.005231649, z: -0.010603585}
+      rotation: {x: -0.062606916, y: -0.91941077, z: 0.16342705, w: -0.35221568}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_lower_r_02_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.0074567394, y: -0.006398913, z: -0.011841834}
+      rotation: {x: -0.059009224, y: -0.93877745, z: 0.20445302, w: -0.27095008}
+      scale: {x: 0.9999996, y: 1.0000004, z: 1}
+    - name: UrbanWarriorRig:lid_lower_r_03_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.0050459458, y: -0.007558461, z: -0.012829289}
+      rotation: {x: -0.046220798, y: -0.9517705, z: 0.2437957, w: -0.18044484}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000004}
+    - name: UrbanWarriorRig:lid_lower_r_04_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: 0.0020805055, y: -0.008635381, z: -0.013256292}
+      rotation: {x: -0.021930337, y: -0.9565005, z: 0.28117695, w: -0.07460222}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_lower_r_05_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.001313597, y: -0.009356779, z: -0.012772403}
+      rotation: {x: 0.015862973, y: -0.9495868, z: 0.30929175, w: 0.048702423}
+      scale: {x: 1.0000002, y: 1.0000006, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_lower_r_06_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.005415528, y: -0.00946015, z: -0.01104504}
+      rotation: {x: 0.0727495, y: -0.92226934, z: 0.31362218, w: 0.21393447}
+      scale: {x: 1.0000002, y: 1.000001, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_lower_r_07_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.008685177, y: -0.008773134, z: -0.008803449}
+      rotation: {x: 0.11524865, y: -0.8814882, z: 0.28091785, w: 0.36163723}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_lower_r_08_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.011194754, y: -0.007628706, z: -0.0068193823}
+      rotation: {x: 0.12758282, y: -0.8417479, z: 0.22710858, w: 0.4728688}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000007}
+    - name: UrbanWarriorRig:lid_lower_r_09_Jnt
+      parentName: UrbanWarriorRig:eye_socket_r_Jnt
+      position: {x: -0.013607716, y: -0.005987091, z: -0.0046942853}
+      rotation: {x: 0.11365914, y: -0.79852045, z: 0.15944143, w: 0.5692321}
+      scale: {x: 1.0000008, y: 1.0000001, z: 1.0000007}
+    - name: UrbanWarriorRig:eye_socket_l_Jnt
+      parentName: UrbanWarriorRig:face_upper_Jnt
+      position: {x: -0.03909368, y: 0.036844995, z: 0.06976323}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:eye_l_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 3.5527136e-17, y: -8.5265126e-16, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lid_upper_l_00_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.011413121, y: -0.004037014, z: 0.009186735}
+      rotation: {x: 0.12088931, y: 0.427941, z: -0.0578796, w: 0.8938134}
+      scale: {x: 1.0000007, y: 1.0000002, z: 1.0000004}
+    - name: UrbanWarriorRig:lid_upper_l_01_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.010390149, y: -0.0025156732, z: 0.011303252}
+      rotation: {x: 0.07557786, y: 0.3619714, z: -0.029458847, w: 0.92865324}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:lid_upper_l_02_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.008559646, y: -0.00058834575, z: 0.013978984}
+      rotation: {x: 0.017265426, y: 0.2712295, z: -0.0048661237, w: 0.96234757}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+    - name: UrbanWarriorRig:lid_upper_l_03_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.0052589285, y: 0.0013736625, z: 0.016687805}
+      rotation: {x: -0.03870885, y: 0.15193367, z: 0.005954951, w: 0.9876145}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:lid_upper_l_04_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.0006199498, y: 0.00233372, z: 0.01796017}
+      rotation: {x: -0.0645149, y: 0.017215343, z: 0.001113102, w: 0.9977676}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: UrbanWarriorRig:lid_upper_l_05_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.0044061313, y: 0.0018853504, z: 0.01704428}
+      rotation: {x: -0.052892685, y: -0.12596986, z: -0.0067260414, w: 0.9906002}
+      scale: {x: 1.0000002, y: 0.9999996, z: 1.0000001}
+    - name: UrbanWarriorRig:lid_upper_l_06_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.008405819, y: 0.00029957015, z: 0.014383227}
+      rotation: {x: -0.008677512, y: -0.26135987, z: -0.0023496598, w: 0.9651996}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: UrbanWarriorRig:lid_upper_l_07_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.011302771, y: -0.0018081879, z: 0.0110192}
+      rotation: {x: 0.052516907, y: -0.3879121, z: 0.022145018, w: 0.91993254}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000004}
+    - name: UrbanWarriorRig:lid_upper_l_08_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.012981475, y: -0.004109989, z: 0.0074943337}
+      rotation: {x: 0.11553414, y: -0.49554348, z: 0.066706, w: 0.8582767}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1.0000002}
+    - name: UrbanWarriorRig:lid_upper_l_09_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.013607715, y: -0.0059870873, z: 0.004694291}
+      rotation: {x: 0.15944135, y: -0.569232, z: 0.11365907, w: 0.79852057}
+      scale: {x: 1.0000007, y: 1, z: 1.0000007}
+    - name: UrbanWarriorRig:lid_lower_l_00_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.011413123, y: -0.004037018, z: 0.00918673}
+      rotation: {x: 0.120889455, y: 0.42794126, z: -0.057879657, w: 0.8938132}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lid_lower_l_01_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.009521578, y: -0.005231649, z: 0.010603585}
+      rotation: {x: 0.16342689, y: 0.3522157, z: -0.06260702, w: 0.9194107}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: UrbanWarriorRig:lid_lower_l_02_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.0074567394, y: -0.006398913, z: 0.011841834}
+      rotation: {x: 0.20445298, y: 0.27095002, z: -0.059009314, w: 0.93877745}
+      scale: {x: 1.0000007, y: 1.0000006, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_lower_l_03_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.0050459458, y: -0.007558461, z: 0.012829289}
+      rotation: {x: 0.2437958, y: 0.18044482, z: -0.046220955, w: 0.9517704}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1}
+    - name: UrbanWarriorRig:lid_lower_l_04_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: 0.0020805055, y: -0.008635381, z: 0.013256292}
+      rotation: {x: 0.28117695, y: 0.07460227, z: -0.021930424, w: 0.9565004}
+      scale: {x: 1, y: 1.0000004, z: 1.0000005}
+    - name: UrbanWarriorRig:lid_lower_l_05_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.001313597, y: -0.009356779, z: 0.012772403}
+      rotation: {x: 0.30929175, y: -0.048702333, z: 0.015862973, w: 0.9495868}
+      scale: {x: 1, y: 1.0000005, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_lower_l_06_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.005415528, y: -0.00946015, z: 0.01104504}
+      rotation: {x: 0.3136222, y: -0.21393444, z: 0.072749406, w: 0.92226934}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.99999994}
+    - name: UrbanWarriorRig:lid_lower_l_07_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.008685177, y: -0.008773134, z: 0.008803449}
+      rotation: {x: 0.28091785, y: -0.36163715, z: 0.115248665, w: 0.8814882}
+      scale: {x: 1, y: 1.0000002, z: 0.9999999}
+    - name: UrbanWarriorRig:lid_lower_l_08_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.011194754, y: -0.007628706, z: 0.0068193823}
+      rotation: {x: 0.22710855, y: -0.47286874, z: 0.12758273, w: 0.8417479}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: UrbanWarriorRig:lid_lower_l_09_Jnt
+      parentName: UrbanWarriorRig:eye_socket_l_Jnt
+      position: {x: -0.013607716, y: -0.005987091, z: 0.0046942853}
+      rotation: {x: 0.15944144, y: -0.56923205, z: 0.11365916, w: 0.7985205}
+      scale: {x: 1.0000006, y: 1.0000001, z: 1.0000007}
+    - name: UrbanWarriorRig:face_lower_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: 3.1974422e-16, y: 0.024887197, z: 0.0033700285}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:jaw_trans_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 1.7763568e-17, y: -0.016262224, z: 0.00807813}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:jaw_Jnt
+      parentName: UrbanWarriorRig:jaw_trans_Jnt
+      position: {x: -1.7763568e-17, y: 0, z: 1.4210854e-16}
+      rotation: {x: 0.139173, y: 0.000000059604645, z: -0, w: 0.9902681}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:tongue_01_Jnt
+      parentName: UrbanWarriorRig:jaw_Jnt
+      position: {x: 0.000000017036529, y: -0.027120305, z: 0.025906406}
+      rotation: {x: -0.24922875, y: 0.6609145, z: -0.24851602, w: 0.66280985}
+      scale: {x: 1.000001, y: 0.99999994, z: 1.0000008}
+    - name: UrbanWarriorRig:tongue_02_Jnt
+      parentName: UrbanWarriorRig:tongue_01_Jnt
+      position: {x: -0.012356827, y: -0.0039805323, z: 0.00003538485}
+      rotation: {x: 0.15311849, y: -0.6893887, z: 0.15268056, w: 0.6913657}
+      scale: {x: 1, y: 0.9999998, z: 1}
+    - name: UrbanWarriorRig:tongue_03_Jnt
+      parentName: UrbanWarriorRig:tongue_02_Jnt
+      position: {x: -0, y: 0, z: 0.0129276}
+      rotation: {x: 0.09535218, y: 0.000000059604638, z: 0.00000002235174, w: 0.99544364}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:tongue_04_Jnt
+      parentName: UrbanWarriorRig:tongue_03_Jnt
+      position: {x: -0, y: 0, z: 0.0108441645}
+      rotation: {x: 0.060075887, y: -0.000000031971616, z: -0.000000008269102, w: 0.9981938}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1.0000005}
+    - name: UrbanWarriorRig:tongue_05_Jnt
+      parentName: UrbanWarriorRig:tongue_04_Jnt
+      position: {x: -0, y: 0, z: 0.009277387}
+      rotation: {x: 0.017141921, y: -0.000000090678576, z: -3.3974235e-10, w: 0.9998531}
+      scale: {x: 1, y: 0.99999976, z: 0.99999994}
+    - name: UrbanWarriorRig:tongue_06_Jnt
+      parentName: UrbanWarriorRig:tongue_05_Jnt
+      position: {x: -0, y: 0, z: 0.0055915746}
+      rotation: {x: -0.0017340579, y: 0.000000063845235, z: 0.00000001921708, w: 0.99999857}
+      scale: {x: 1, y: 1.0000002, z: 1.0000001}
+    - name: UrbanWarriorRig:tongue_07_Jnt
+      parentName: UrbanWarriorRig:tongue_06_Jnt
+      position: {x: -0, y: 0, z: 0.004272516}
+      rotation: {x: -0.03466927, y: 0.7061217, z: -0.03465605, w: 0.7063917}
+      scale: {x: 0.99999994, y: 0.9999999, z: 1}
+    - name: UrbanWarriorRig:teeth_lower_Jnt
+      parentName: UrbanWarriorRig:jaw_Jnt
+      position: {x: -0.0001329921, y: -0.008275449, z: 0.08674138}
+      rotation: {x: -0.04076578, y: -0.000000055165998, z: 0.000000035394564, w: 0.99916875}
+      scale: {x: 1, y: 0.99999976, z: 1.0000004}
+    - name: UrbanWarriorRig:lip_upper_r_00_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.031631824, y: -0.053482268, z: 0.076030865}
+      rotation: {x: 0.27853328, y: 0.18778762, z: -0.055629253, w: 0.9402449}
+      scale: {x: 1, y: 1.0000001, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_r_01_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.031145679, y: -0.053202078, z: 0.07661412}
+      rotation: {x: 0.27670842, y: 0.18407908, z: -0.05409515, w: 0.94160557}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_upper_r_02_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.029651934, y: -0.05223254, z: 0.078353174}
+      rotation: {x: 0.2706662, y: 0.17296202, z: -0.049502365, w: 0.9457132}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:lip_upper_r_03_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.02747827, y: -0.05058836, z: 0.08074329}
+      rotation: {x: 0.260941, y: 0.15746222, z: -0.04318515, w: 0.95144653}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lip_upper_r_04_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.025224946, y: -0.04869085, z: 0.08304816}
+      rotation: {x: 0.25010258, y: 0.14213455, z: -0.03714508, w: 0.95700926}
+      scale: {x: 1, y: 0.9999997, z: 1}
+    - name: UrbanWarriorRig:lip_upper_r_05_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.022776693, y: -0.046530288, z: 0.08535446}
+      rotation: {x: 0.2379898, y: 0.126216, z: -0.03120771, w: 0.96252614}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_upper_r_06_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.019782152, y: -0.043935273, z: 0.087893024}
+      rotation: {x: 0.22355095, y: 0.107634336, z: -0.024846613, w: 0.9684124}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_r_07_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.016297352, y: -0.04128167, z: 0.090444714}
+      rotation: {x: 0.20869629, y: 0.08704507, z: -0.01865238, w: 0.9739205}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_upper_r_08_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.0125304265, y: -0.039226457, z: 0.092688784}
+      rotation: {x: 0.19680797, y: 0.06581721, z: -0.013242841, w: 0.9781408}
+      scale: {x: 1, y: 1.0000001, z: 0.9999997}
+    - name: UrbanWarriorRig:lip_upper_r_09_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.008251593, y: -0.037893865, z: 0.09455393}
+      rotation: {x: 0.18861, y: 0.04272795, z: -0.008214296, w: 0.98108774}
+      scale: {x: 1, y: 1.0000004, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_r_10_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.0037760932, y: -0.03732769, z: 0.0956954}
+      rotation: {x: 0.18472223, y: 0.019378752, z: -0.0036431253, w: 0.982593}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_m__Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -3.5527136e-17, y: -0.037236307, z: 0.09599932}
+      rotation: {x: 0.18395409, y: 0.000000029802319, z: 0.000000029802319, w: 0.98293483}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_upper_l_10_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.0037760932, y: -0.03732769, z: 0.0956954}
+      rotation: {x: 0.18472217, y: -0.019378781, z: 0.0036430657, w: 0.98259294}
+      scale: {x: 1, y: 0.9999998, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_l_09_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.008251593, y: -0.037893865, z: 0.09455393}
+      rotation: {x: 0.18861005, y: -0.042727947, z: 0.0082142055, w: 0.98108774}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_upper_l_08_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.0125304265, y: -0.039226457, z: 0.092688784}
+      rotation: {x: 0.19680803, y: -0.06581714, z: 0.013242839, w: 0.9781407}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lip_upper_l_07_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.016297352, y: -0.04128167, z: 0.090444714}
+      rotation: {x: 0.20869632, y: -0.08704505, z: 0.01865235, w: 0.9739205}
+      scale: {x: 1.0000002, y: 0.9999999, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_l_06_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.019782152, y: -0.043935273, z: 0.087893024}
+      rotation: {x: 0.22355098, y: -0.107634455, z: 0.024846643, w: 0.96841234}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_upper_l_05_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.022776693, y: -0.046530288, z: 0.08535446}
+      rotation: {x: 0.23798974, y: -0.12621596, z: 0.031207502, w: 0.96252614}
+      scale: {x: 1, y: 1.0000001, z: 1.0000004}
+    - name: UrbanWarriorRig:lip_upper_l_04_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.025224946, y: -0.04869085, z: 0.08304816}
+      rotation: {x: 0.2501026, y: -0.14213447, z: 0.037145123, w: 0.9570093}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_upper_l_03_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.02747827, y: -0.05058836, z: 0.08074329}
+      rotation: {x: 0.260941, y: -0.15746221, z: 0.04318512, w: 0.95144653}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: UrbanWarriorRig:lip_upper_l_02_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.029651934, y: -0.05223254, z: 0.078353174}
+      rotation: {x: 0.2706662, y: -0.17296202, z: 0.049502254, w: 0.9457132}
+      scale: {x: 0.9999999, y: 0.9999999, z: 1}
+    - name: UrbanWarriorRig:lip_upper_l_01_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.031145679, y: -0.053202078, z: 0.07661412}
+      rotation: {x: 0.27670842, y: -0.1840791, z: 0.054095097, w: 0.94160557}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_upper_l_00_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.031631824, y: -0.053482268, z: 0.076030865}
+      rotation: {x: 0.27853316, y: -0.18778755, z: 0.05562927, w: 0.940245}
+      scale: {x: 0.99999994, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:lip_lower_r_00_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.0314977, y: -0.053518612, z: 0.07614189}
+      rotation: {x: 0.27860177, y: 0.18683681, z: -0.055350304, w: 0.9404304}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_lower_r_01_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.030087762, y: -0.053803377, z: 0.077317305}
+      rotation: {x: 0.27884036, y: 0.17691365, z: -0.05234307, w: 0.94244885}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_lower_r_02_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.02790611, y: -0.053954452, z: 0.07915018}
+      rotation: {x: 0.27777073, y: 0.1618357, z: -0.047533065, w: 0.9457237}
+      scale: {x: 1.0000001, y: 1.0000004, z: 0.9999997}
+    - name: UrbanWarriorRig:lip_lower_r_03_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.025363464, y: -0.053802494, z: 0.08127536}
+      rotation: {x: 0.27489227, y: 0.14472762, z: -0.041896284, w: 0.94959617}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_lower_r_04_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.022806296, y: -0.053401716, z: 0.083365075}
+      rotation: {x: 0.27077857, y: 0.1280577, z: -0.03637037, w: 0.9533926}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_lower_r_05_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.020188492, y: -0.052825086, z: 0.08541713}
+      rotation: {x: 0.2657904, y: 0.11156361, z: -0.03098315, w: 0.95705223}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:lip_lower_r_06_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.017123632, y: -0.05204358, z: 0.08764916}
+      rotation: {x: 0.25955895, y: 0.09298569, z: -0.02511707, w: 0.9609121}
+      scale: {x: 0.99999994, y: 1, z: 1}
+    - name: UrbanWarriorRig:lip_lower_r_07_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.013548009, y: -0.051153805, z: 0.089901924}
+      rotation: {x: 0.2527453, y: 0.072276674, z: -0.018937169, w: 0.9646436}
+      scale: {x: 1, y: 1.0000004, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_lower_r_08_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.009224699, y: -0.050313734, z: 0.09193631}
+      rotation: {x: 0.24643475, y: 0.04843548, z: -0.012332439, w: 0.96786976}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_lower_r_09_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 0.004534126, y: -0.049757276, z: 0.09321802}
+      rotation: {x: 0.24239208, y: 0.023573369, z: -0.0058915913, w: 0.96987414}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:lip_lower_m__Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: 1.1981971e-11, y: -0.04958546, z: 0.09359027}
+      rotation: {x: 0.24120446, y: 0.000000059604645, z: -0, w: 0.9704743}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_lower_l_09_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.0045341253, y: -0.049757276, z: 0.09321802}
+      rotation: {x: 0.242392, y: -0.023573343, z: 0.005891503, w: 0.9698741}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: UrbanWarriorRig:lip_lower_l_08_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.009224699, y: -0.050313734, z: 0.09193631}
+      rotation: {x: 0.24643487, y: -0.04843542, z: 0.01233238, w: 0.96786976}
+      scale: {x: 1.0000002, y: 1.0000004, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_lower_l_07_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.013548009, y: -0.051153805, z: 0.089901924}
+      rotation: {x: 0.25274533, y: -0.07227674, z: 0.018937081, w: 0.9646436}
+      scale: {x: 1, y: 1, z: 1.0000001}
+    - name: UrbanWarriorRig:lip_lower_l_06_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.017123632, y: -0.05204358, z: 0.08764916}
+      rotation: {x: 0.25955907, y: -0.0929856, z: 0.02511704, w: 0.9609121}
+      scale: {x: 1, y: 0.9999999, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_lower_l_05_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.020188492, y: -0.052825086, z: 0.08541713}
+      rotation: {x: 0.26579037, y: -0.11156372, z: 0.030983182, w: 0.9570523}
+      scale: {x: 1.0000001, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_lower_l_04_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.022806296, y: -0.053401716, z: 0.083365075}
+      rotation: {x: 0.2707787, y: -0.12805769, z: 0.036370397, w: 0.95339257}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:lip_lower_l_03_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.025363464, y: -0.053802494, z: 0.08127536}
+      rotation: {x: 0.2748923, y: -0.14472765, z: 0.041896284, w: 0.94959617}
+      scale: {x: 1, y: 1.0000001, z: 0.9999998}
+    - name: UrbanWarriorRig:lip_lower_l_02_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.02790611, y: -0.053954452, z: 0.07915018}
+      rotation: {x: 0.27777067, y: -0.16183558, z: 0.047533065, w: 0.9457237}
+      scale: {x: 1, y: 1.0000004, z: 1}
+    - name: UrbanWarriorRig:lip_lower_l_01_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.030087762, y: -0.053803377, z: 0.077317305}
+      rotation: {x: 0.27884042, y: -0.17691363, z: 0.05234307, w: 0.94244885}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: UrbanWarriorRig:lip_lower_l_00_Jnt
+      parentName: UrbanWarriorRig:face_lower_Jnt
+      position: {x: -0.0314977, y: -0.053518612, z: 0.07614189}
+      rotation: {x: 0.27860177, y: -0.1868369, z: 0.055350244, w: 0.94043046}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: UrbanWarriorRig:cheek_upper_r_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: 0.04510347, y: 0.019765828, z: 0.08672167}
+      rotation: {x: -0.057502024, y: 0.9710628, z: 0.067910455, w: -0.22162741}
+      scale: {x: 1.0000007, y: 0.9999998, z: 1.0000005}
+    - name: UrbanWarriorRig:cheek_upper_l_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: -0.04510347, y: 0.019765828, z: 0.08672167}
+      rotation: {x: 0.0679104, y: -0.22162734, z: -0.057501957, w: 0.97106284}
+      scale: {x: 1.0000004, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:cheek_r_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: 0.058025047, y: -0.0054906732, z: 0.06328101}
+      rotation: {x: -0.014244735, y: 0.92028975, z: 0.17044614, w: -0.35186943}
+      scale: {x: 1.0000002, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:cheek_l_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: -0.058025047, y: -0.0054906732, z: 0.06328101}
+      rotation: {x: 0.17044622, y: -0.3518694, z: -0.014244676, w: 0.92028975}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:cheek_lower_r_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: 0.049970306, y: -0.036736857, z: 0.05261083}
+      rotation: {x: -0.01386264, y: 0.88577306, z: 0.2838692, w: -0.36692262}
+      scale: {x: 1.0000004, y: 0.99999976, z: 1}
+    - name: UrbanWarriorRig:cheek_lower_l_Jnt
+      parentName: UrbanWarriorRig:face_Jnt
+      position: {x: -0.046685882, y: -0.037520245, z: 0.059656966}
+      rotation: {x: 0.28386933, y: -0.36692256, z: -0.01386255, w: 0.88577306}
+      scale: {x: 1, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:Eye_R
+      parentName: UrbanWarriorRig:Head_M
+      position: {x: -0.0067450404, y: 0.07247936, z: -0.03909368}
+      rotation: {x: 0.0086811595, y: 0.017508592, z: 0.74354005, w: -0.6684059}
+      scale: {x: 1.0000007, y: 1.0000019, z: 1.0000007}
+    - name: UrbanWarriorRig:Eye_L
+      parentName: UrbanWarriorRig:Head_M
+      position: {x: -0.0067450404, y: 0.07247936, z: 0.03909368}
+      rotation: {x: 0.008681221, y: 0.017508652, z: 0.74354005, w: -0.66840583}
+      scale: {x: 1.0000011, y: 1.0000024, z: 1.0000011}
+    - name: UrbanWarriorRig:Scapula_L
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.19650386, y: -0.01381414, z: 0.028561499}
+      rotation: {x: 0.69548017, y: -0.12770063, z: 0.70710516, w: -0.0015140185}
+      scale: {x: 1.0000015, y: 0.9999997, z: 0.9999998}
+    - name: UrbanWarriorRig:Shoulder_L
+      parentName: UrbanWarriorRig:Scapula_L
+      position: {x: 0.16420229, y: 0, z: -1.4210854e-16}
+      rotation: {x: -0.0139528625, y: -0.15148188, z: -0.09066959, w: 0.98419386}
+      scale: {x: 1.000001, y: 1.0000008, z: 1.0000004}
+    - name: UrbanWarriorRig:ShoulderPart1_L
+      parentName: UrbanWarriorRig:Shoulder_L
+      position: {x: 0.11, y: 1.1768363e-16, z: -1.4210854e-16}
+      rotation: {x: 0.00000012293457, y: 0.11650976, z: -0.00000080344023, w: 0.9931896}
+      scale: {x: 1.0000007, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:ShoulderPart2_L
+      parentName: UrbanWarriorRig:ShoulderPart1_L
+      position: {x: 0.11, y: 1.9095835e-16, z: 2.842171e-16}
+      rotation: {x: 0.000000018626436, y: -0.000000029802326, z: 0.00000004284085, w: 1}
+      scale: {x: 1.0000011, y: 1.0000013, z: 1.0000015}
+    - name: UrbanWarriorRig:Elbow_L
+      parentName: UrbanWarriorRig:ShoulderPart2_L
+      position: {x: 0.11, y: 2.0407287e-16, z: 0}
+      rotation: {x: 0.0020042616, y: 0.021813529, z: -0.03613282, w: 0.99910694}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:ElbowPart1_L
+      parentName: UrbanWarriorRig:Elbow_L
+      position: {x: 0.11333333, y: 0, z: -2.842171e-16}
+      rotation: {x: 0.000000051935277, y: 0.0000000047721858, z: 0.000000059604634, w: 1}
+      scale: {x: 1.0000001, y: 1.0000007, z: 1.0000001}
+    - name: UrbanWarriorRig:bandage_01_Jnt
+      parentName: UrbanWarriorRig:ElbowPart1_L
+      position: {x: 0.01215292, y: 0.058219127, z: -0.016659312}
+      rotation: {x: -0.74123824, y: -0.027725583, z: 0.6188004, w: 0.25861803}
+      scale: {x: 1.0000019, y: 1.0000004, z: 1.0000011}
+    - name: UrbanWarriorRig:bandage_02_Jnt
+      parentName: UrbanWarriorRig:bandage_01_Jnt
+      position: {x: -0.049999997, y: 2.2204459e-17, z: 2.842171e-16}
+      rotation: {x: -0.03489951, y: 0.000000100117155, z: 0.000000048428763, w: 0.9993909}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: UrbanWarriorRig:bandage_03_Jnt
+      parentName: UrbanWarriorRig:bandage_02_Jnt
+      position: {x: -0.064056456, y: -1.1990408e-16, z: -1.4210854e-16}
+      rotation: {x: 0.028044429, y: 0.036789887, z: 0.018836884, w: 0.9987518}
+      scale: {x: 1.0000005, y: 0.99999994, z: 1.0000005}
+    - name: UrbanWarriorRig:bandage_04_Jnt
+      parentName: UrbanWarriorRig:bandage_03_Jnt
+      position: {x: -0.047520794, y: 1.6653345e-18, z: -5.684342e-16}
+      rotation: {x: 0.011146793, y: 0.012807745, z: 0.01020597, w: 0.9998037}
+      scale: {x: 1, y: 0.99999994, z: 1.0000002}
+    - name: UrbanWarriorRig:bandage_05_Jnt
+      parentName: UrbanWarriorRig:bandage_04_Jnt
+      position: {x: -0.030456733, y: -4.107825e-16, z: 4.2632563e-16}
+      rotation: {x: -0.008726614, y: 0.0000001052394, z: 0.0000000013387755, w: 0.9999619}
+      scale: {x: 1.0000004, y: 1.0000001, z: 0.9999996}
+    - name: UrbanWarriorRig:ElbowPart2_L
+      parentName: UrbanWarriorRig:ElbowPart1_L
+      position: {x: 0.11333333, y: 1.4210854e-16, z: -1.4210854e-16}
+      rotation: {x: -0.000000037096626, y: -0.000000003408704, z: -0.00000004470348, w: 1}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: UrbanWarriorRig:Wrist_L
+      parentName: UrbanWarriorRig:ElbowPart2_L
+      position: {x: 0.11333333, y: 2.842171e-16, z: 2.842171e-16}
+      rotation: {x: 0.007671211, y: -0.10460923, z: 0.010693197, w: 0.9944263}
+      scale: {x: 1.0000005, y: 1.0000004, z: 0.99999994}
+    - name: UrbanWarriorRig:MiddleFinger1_L
+      parentName: UrbanWarriorRig:Wrist_L
+      position: {x: 0.14923994, y: -1.4210854e-16, z: -8.5265126e-16}
+      rotation: {x: -0.01417082, y: 0.025691854, z: -0.019155363, w: -0.99938595}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:MiddleFinger2_L
+      parentName: UrbanWarriorRig:MiddleFinger1_L
+      position: {x: 0.06908535, y: -3.5527135e-16, z: 8.5265126e-16}
+      rotation: {x: -0.00000013317907, y: -0.038619395, z: -0.0000011968071, w: 0.999254}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000004}
+    - name: UrbanWarriorRig:MiddleFinger3_L
+      parentName: UrbanWarriorRig:MiddleFinger2_L
+      position: {x: 0.04, y: 2.842171e-16, z: -8.5265126e-16}
+      rotation: {x: -0.000000015041953, y: -0.017452551, z: -0.000000012331774, w: 0.9998477}
+      scale: {x: 1.0000001, y: 1, z: 0.9999996}
+    - name: UrbanWarriorRig:MiddleFinger4_L
+      parentName: UrbanWarriorRig:MiddleFinger3_L
+      position: {x: 0.03, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -6.938893e-16, w: 1}
+      scale: {x: 1.0000002, y: 1, z: 1}
+    - name: UrbanWarriorRig:ThumbFinger1_L
+      parentName: UrbanWarriorRig:Wrist_L
+      position: {x: 0.010182858, y: -0.012743644, z: 0.0058537903}
+      rotation: {x: -0.18835393, y: 0.023840172, z: -0.38381064, w: 0.90368354}
+      scale: {x: 1.0000004, y: 0.9999998, z: 1.0000005}
+    - name: UrbanWarriorRig:ThumbFinger2_L
+      parentName: UrbanWarriorRig:ThumbFinger1_L
+      position: {x: 0.09212763, y: -2.842171e-16, z: -6.217249e-16}
+      rotation: {x: -0.06977581, y: -0.029491773, z: -0.007215885, w: 0.99710053}
+      scale: {x: 1.0000004, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:ThumbFinger3_L
+      parentName: UrbanWarriorRig:ThumbFinger2_L
+      position: {x: 0.044188235, y: 1.4210854e-16, z: 4.973799e-16}
+      rotation: {x: -0.00000024586907, y: -0.037048027, z: -0.0000013210806, w: 0.99931353}
+      scale: {x: 1.0000004, y: 1.0000002, z: 0.99999994}
+    - name: UrbanWarriorRig:ThumbFinger4_L
+      parentName: UrbanWarriorRig:ThumbFinger3_L
+      position: {x: 0.037279952, y: 0, z: 0}
+      rotation: {x: 1.4210853e-14, y: -0, z: 2.3092636e-14, w: 1}
+      scale: {x: 0.99999994, y: 1.0000002, z: 0.9999998}
+    - name: UrbanWarriorRig:IndexFinger1_L
+      parentName: UrbanWarriorRig:Wrist_L
+      position: {x: 0.15499476, y: -0.03388597, z: 0.01380454}
+      rotation: {x: -0.0015708439, y: 0.027130019, z: -0.01612033, w: -0.9995007}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1}
+    - name: UrbanWarriorRig:IndexFinger2_L
+      parentName: UrbanWarriorRig:IndexFinger1_L
+      position: {x: 0.062203493, y: -4.2632563e-16, z: -5.684342e-16}
+      rotation: {x: -0.0000000778818, y: 0.039443705, z: -0.0000010317666, w: -0.9992218}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: UrbanWarriorRig:IndexFinger3_L
+      parentName: UrbanWarriorRig:IndexFinger2_L
+      position: {x: 0.033882868, y: 2.842171e-16, z: 5.684342e-16}
+      rotation: {x: 0.0000001563265, y: 0.026177028, z: 0.00000017818999, w: -0.99965733}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: UrbanWarriorRig:IndexFinger4_L
+      parentName: UrbanWarriorRig:IndexFinger3_L
+      position: {x: 0.03, y: 0, z: 0}
+      rotation: {x: -0, y: 0.0000000018626447, z: -6.2172477e-15, w: 1}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000004}
+    - name: UrbanWarriorRig:Cup_L
+      parentName: UrbanWarriorRig:Wrist_L
+      position: {x: 0.01198684, y: 0.011568027, z: 0.0027959251}
+      rotation: {x: 0.122658834, y: 0.0020747257, z: 0.018336762, w: 0.9922774}
+      scale: {x: 1.0000004, y: 1.0000008, z: 1.0000002}
+    - name: UrbanWarriorRig:PinkyFinger1_L
+      parentName: UrbanWarriorRig:Cup_L
+      position: {x: 0.11417517, y: 0.05001463, z: -0.00010232931}
+      rotation: {x: 0.11230131, y: 0.010155491, z: -0.01847643, w: -0.9934505}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1.0000005}
+    - name: UrbanWarriorRig:PinkyFinger2_L
+      parentName: UrbanWarriorRig:PinkyFinger1_L
+      position: {x: 0.056116022, y: -1.4210854e-16, z: 2.842171e-16}
+      rotation: {x: -0.000000029802305, y: -0.038981218, z: 0.00000007590275, w: 0.9992399}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999998}
+    - name: UrbanWarriorRig:PinkyFinger3_L
+      parentName: UrbanWarriorRig:PinkyFinger2_L
+      position: {x: 0.029307172, y: 1.4210854e-16, z: -7.105427e-16}
+      rotation: {x: -0.00000005205615, y: -0.040644772, z: 0.0000002744322, w: 0.99917376}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:PinkyFinger4_L
+      parentName: UrbanWarriorRig:PinkyFinger3_L
+      position: {x: 0.028142326, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: 4.4408905e-16, w: 1}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000004}
+    - name: UrbanWarriorRig:RingFinger1_L
+      parentName: UrbanWarriorRig:Cup_L
+      position: {x: 0.12732972, y: 0.0168178, z: -0.0012858324}
+      rotation: {x: 0.1103296, y: 0.022155821, z: -0.0065321955, w: -0.9936266}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000005}
+    - name: UrbanWarriorRig:RingFinger2_L
+      parentName: UrbanWarriorRig:RingFinger1_L
+      position: {x: 0.062735625, y: 8.5265126e-16, z: -2.842171e-16}
+      rotation: {x: -0.00001547485, y: -0.03800139, z: 0.00005040316, w: 0.99927765}
+      scale: {x: 1.0000001, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:RingFinger3_L
+      parentName: UrbanWarriorRig:RingFinger2_L
+      position: {x: 0.038929045, y: -5.684342e-16, z: 5.684342e-16}
+      rotation: {x: -0.000011906468, y: -0.03952802, z: -0.000068988804, w: 0.9992185}
+      scale: {x: 1.0000004, y: 0.9999998, z: 0.9999997}
+    - name: UrbanWarriorRig:RingFinger4_L
+      parentName: UrbanWarriorRig:RingFinger3_L
+      position: {x: 0.03, y: 0, z: 0}
+      rotation: {x: -0, y: -0, z: -6.366463e-12, w: 1}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1.0000002}
+    - name: UrbanWarriorRig:Rt_poncho_back1_Jnt
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.22690314, y: -0.18889785, z: -0.06969207}
+      rotation: {x: -0.4096784, y: 0.57633644, z: 0.4096783, w: 0.57633644}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: UrbanWarriorRig:Rt_poncho_back2_Jnt
+      parentName: UrbanWarriorRig:Rt_poncho_back1_Jnt
+      position: {x: -0, y: -0.099699154, z: -1.4210854e-16}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:Rt_poncho_frontA1_Jnt
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.15449233, y: 0.123417415, z: -0.19491288}
+      rotation: {x: -0.6243492, y: 0.66299975, z: 0.3546205, w: 0.21181086}
+      scale: {x: 1.0000002, y: 0.99999994, z: 0.9999997}
+    - name: UrbanWarriorRig:Rt_poncho_frontA2_Jnt
+      parentName: UrbanWarriorRig:Rt_poncho_frontA1_Jnt
+      position: {x: -0, y: -0.108012676, z: -8.8817837e-17}
+      rotation: {x: 0.000000029802319, y: -0.000000014901159, z: 0.000000029802319, w: 1}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UrbanWarriorRig:Rt_poncho_frontB_Jnt
+      parentName: UrbanWarriorRig:Chest_M
+      position: {x: -0.12411204, y: 0.20821977, z: -0.00086887274}
+      rotation: {x: -0.5003748, y: 0.48171848, z: 0.5114669, w: 0.5059387}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:Hip_R
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: 0.017991578, y: -0.010139057, z: -0.14204155}
+      rotation: {x: 0.080105245, y: 0.99140227, z: 0.0045129657, w: -0.1033656}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: UrbanWarriorRig:HipPart1_R
+      parentName: UrbanWarriorRig:Hip_R
+      position: {x: -0.18333334, y: -5.684342e-16, z: 7.81597e-16}
+      rotation: {x: 0.021378202, y: 0.000000014901159, z: 0.000000029802319, w: 0.9997715}
+      scale: {x: 1.0000001, y: 1, z: 0.99999994}
+    - name: UrbanWarriorRig:HipPart2_R
+      parentName: UrbanWarriorRig:HipPart1_R
+      position: {x: -0.18333334, y: 0, z: 8.5265126e-16}
+      rotation: {x: 0.021378156, y: 0.000000014908263, z: 0.000000029815794, w: 0.9997715}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:Knee_R
+      parentName: UrbanWarriorRig:HipPart2_R
+      position: {x: -0.18333334, y: -2.842171e-16, z: 8.881784e-16}
+      rotation: {x: 0.021378316, y: 0.00000008295375, z: 0.0000003998015, w: 0.9997715}
+      scale: {x: 1.0000035, y: 1.0000051, z: 1.000004}
+    - name: UrbanWarriorRig:Ankle_R
+      parentName: UrbanWarriorRig:Knee_R
+      position: {x: -0.5, y: -1.563194e-15, z: 2.664535e-16}
+      rotation: {x: 0.0053698695, y: -0.10348728, z: 0.015380545, w: 0.99449736}
+      scale: {x: 1.0000018, y: 1, z: 1.0000014}
+    - name: UrbanWarriorRig:Toes_R
+      parentName: UrbanWarriorRig:Ankle_R
+      position: {x: -0.099999994, y: 0.19999999, z: 1.7763568e-17}
+      rotation: {x: -0.0030419389, y: -0.007954694, z: -0.6854294, w: 0.72808933}
+      scale: {x: 0.99999934, y: 0.9999979, z: 1.0000005}
+    - name: UrbanWarriorRig:Hip_L
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: 0.017991578, y: -0.010139057, z: 0.14204155}
+      rotation: {x: -0.99140227, y: 0.08010526, z: -0.10336557, w: -0.0045129955}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: UrbanWarriorRig:HipPart1_L
+      parentName: UrbanWarriorRig:Hip_L
+      position: {x: 0.18333334, y: -2.842171e-16, z: -1.0391687e-15}
+      rotation: {x: 0.021378191, y: 0.000000029802326, z: -0.000000014901163, w: 0.9997715}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:HipPart2_L
+      parentName: UrbanWarriorRig:HipPart1_L
+      position: {x: 0.18333334, y: -1.9317881e-16, z: -1.0835777e-15}
+      rotation: {x: -0.021378249, y: -0.000000029802322, z: -0, w: -0.9997715}
+      scale: {x: 0.9999999, y: 1, z: 0.9999998}
+    - name: UrbanWarriorRig:Knee_L
+      parentName: UrbanWarriorRig:HipPart2_L
+      position: {x: 0.18333334, y: -8.7707615e-17, z: -1.0569323e-15}
+      rotation: {x: 0.02137826, y: 0.000000008245811, z: 0.0000004930968, w: 0.9997715}
+      scale: {x: 1.0000045, y: 1.0000031, z: 1.0000032}
+    - name: UrbanWarriorRig:Ankle_L
+      parentName: UrbanWarriorRig:Knee_L
+      position: {x: 0.5, y: 4.973799e-16, z: -2.3092638e-16}
+      rotation: {x: -0.005369881, y: 0.10348716, z: -0.015380511, w: -0.9944974}
+      scale: {x: 0.99999994, y: 1.0000008, z: 1.0000007}
+    - name: UrbanWarriorRig:Toes_L
+      parentName: UrbanWarriorRig:Ankle_L
+      position: {x: 0.099999994, y: -0.19999999, z: -2.664535e-16}
+      rotation: {x: 0.0030418728, y: 0.007954723, z: 0.6854294, w: -0.7280894}
+      scale: {x: 1.0000048, y: 1.0000072, z: 1.0000042}
+    - name: UrbanWarriorRig:Lf_legArmor
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: -0.124772705, y: -0.04931299, z: 0.16499999}
+      rotation: {x: -0.47771442, y: 0.5213338, z: -0.47771445, w: -0.5213338}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: UrbanWarriorRig:Rt_legArmor
+      parentName: UrbanWarriorRig:Root_M
+      position: {x: -0.124772705, y: -0.04931299, z: -0.16499999}
+      rotation: {x: -0.47771445, y: 0.5213338, z: 0.47771445, w: 0.5213338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:GEO
+      parentName: RunDemo(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:head_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:leashup_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:leashbot_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:earring1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:earring_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:beard_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:eyebrow_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:bodyup_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:shirt_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:bandend2_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:bandend1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:shoes_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotL2_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotL1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotR2_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotR1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lace_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:laceendL_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:laceendR_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotL_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:knotR_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:lense_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:base_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair2_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair3_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair4_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hair5_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:hairbun_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:teethup_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:tongue_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:teethbot_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:band_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:band1_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:scarf_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:sticker3
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:sticker2
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:sticker1
+      parentName: UrbanWarriorRig:GEO
+      position: {x: 0.5302127, y: 1.3360776, z: -0.0039168834}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:nail
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:pipe_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:bandage3_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:handle_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:sword_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:strap_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:ponchoL_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UrbanWarriorRig:ponchoR_low
+      parentName: UrbanWarriorRig:GEO
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.453
     foreArmTwist: 0.5
     upperLegTwist: 0.5
     legTwist: 0.5
@@ -838,13 +2668,13 @@ ModelImporter:
     globalScale: 1
     rootMotionBoneName: UrbanWarriorRig:cRoot
     hasTranslationDoF: 0
-    hasExtraRoot: 0
+    hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 6321e6455b6a5ce489173440642f32c6, type: 3}
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
-  avatarSetup: 2
+  avatarSetup: 1
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   importBlendShapeDeformPercent: 1
   remapMaterialsIfMaterialImportModeIsNone: 0

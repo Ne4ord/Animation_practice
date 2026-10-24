@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+using UnityEngine;
+using System.Collections;
 
 public class PlayerController : MonoBehaviour
 {
@@ -10,15 +11,15 @@ public class PlayerController : MonoBehaviour
     [Header("Health")]
     public int maxHealth = 5;
 
-    [Header("Weapon")]
-    public GameObject sword;
-    public GameObject swordOnBack;
+    [Header("Attack timing")]
+    [Range(0f, 1f)] public float hitStartPercent = 0.35f;
+    [Range(0f, 1f)] public float hitEndPercent = 0.65f;
 
     [Header("Camera")]
     public Transform cameraTransform;
 
     private Animator anim;
-    private WeaponHitbox weaponHitbox;
+    public WeaponHitbox weaponHitbox;
     private bool isAttacking = false;
     private bool isJumpAttacking = false;
     private bool isDead = false;
@@ -31,6 +32,11 @@ public class PlayerController : MonoBehaviour
         anim = GetComponent<Animator>();
         currentHealth = maxHealth;
 
+        if (weaponHitbox == null)
+            weaponHitbox = GetComponentInChildren<WeaponHitbox>();
+        if (weaponHitbox == null)
+            weaponHitbox = gameObject.AddComponent<WeaponHitbox>();
+
         AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;
         foreach (AnimationClip clip in clips)
         {
@@ -39,22 +45,12 @@ public class PlayerController : MonoBehaviour
             else if (clip.name.ToLower().Contains("attack"))
                 attackDuration = clip.length;
         }
-
-        if (attackDuration <= 0) attackDuration = 3.34f;
-        if (jumpAttackDuration <= 0) jumpAttackDuration = 2f;
-
-        if (sword != null)
-            weaponHitbox = sword.GetComponent<WeaponHitbox>();
-
-        if (sword != null)
-            sword.SetActive(true);
-        if (swordOnBack != null)
-            swordOnBack.SetActive(false);
     }
 
     void Update()
     {
         if (isDead) return;
+        if (Time.timeScale == 0f) return;
 
         if (isAttacking || isJumpAttacking)
             return;
@@ -83,22 +79,12 @@ public class PlayerController : MonoBehaviour
             // Плавно меняем Speed в Animator
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, targetSpeed, Time.deltaTime * animationSmooth));
-
-            if (sword != null)
-                sword.SetActive(false);
-            if (swordOnBack != null)
-                swordOnBack.SetActive(true);
         }
         else
         {
             // Плавно сбрасываем Speed до 0
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, 0f, Time.deltaTime * animationSmooth));
-
-            if (sword != null)
-                sword.SetActive(true);
-            if (swordOnBack != null)
-                swordOnBack.SetActive(false);
         }
 
         if (Input.GetMouseButtonDown(0) && !isAttacking && !isJumpAttacking)
@@ -115,25 +101,13 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", 0f);
         anim.SetTrigger("Attack");
 
-        if (sword != null)
-            sword.SetActive(true);
-        if (swordOnBack != null)
-            swordOnBack.SetActive(false);
-
         if (weaponHitbox != null)
         {
             weaponHitbox.ResetHitbox();
-            weaponHitbox.canHit = true;
+            weaponHitbox.canHit = false;
         }
 
-        Invoke(nameof(FinishAttack), attackDuration);
-    }
-
-    void FinishAttack()
-    {
-        isAttacking = false;
-        if (weaponHitbox != null)
-            weaponHitbox.canHit = false;
+        StartCoroutine(AttackRoutine("Attack", attackDuration, false));
     }
 
     void StartJumpAttack()
@@ -143,16 +117,66 @@ public class PlayerController : MonoBehaviour
         anim.SetFloat("Speed", 0f);
         anim.SetTrigger("JumpAttack");
 
-        if (sword != null) sword.SetActive(true);
-        if (swordOnBack != null) swordOnBack.SetActive(false);
-
         if (weaponHitbox != null)
         {
             weaponHitbox.ResetHitbox();
-            weaponHitbox.canHit = true;
+            weaponHitbox.canHit = false;
         }
 
-        Invoke(nameof(FinishJumpAttack), jumpAttackDuration);
+        StartCoroutine(AttackRoutine("JumpAttack", jumpAttackDuration, true));
+    }
+
+    IEnumerator AttackRoutine(string stateName, float fallbackLength, bool jump)
+    {
+        float length = 0f;
+        float waited = 0f;
+
+        while (length <= 0f && waited < 0.5f)
+        {
+            AnimatorStateInfo next = anim.GetNextAnimatorStateInfo(0);
+            AnimatorStateInfo current = anim.GetCurrentAnimatorStateInfo(0);
+
+            if (next.IsName(stateName))
+                length = next.length;
+            else if (current.IsName(stateName))
+                length = current.length;
+            else
+            {
+                waited += Time.deltaTime;
+                yield return null;
+            }
+        }
+
+        if (length <= 0f)
+            length = fallbackLength > 0f ? fallbackLength : 1f;
+
+        yield return new WaitForSeconds(length * hitStartPercent);
+        EnableHit();
+        yield return new WaitForSeconds(length * (hitEndPercent - hitStartPercent));
+        DisableHit();
+        yield return new WaitForSeconds(length * (1f - hitEndPercent));
+
+        if (jump)
+            FinishJumpAttack();
+        else
+            FinishAttack();
+    }
+
+    void EnableHit()
+    {
+        if (weaponHitbox != null) weaponHitbox.canHit = true;
+    }
+
+    void DisableHit()
+    {
+        if (weaponHitbox != null) weaponHitbox.canHit = false;
+    }
+
+    void FinishAttack()
+    {
+        isAttacking = false;
+        if (weaponHitbox != null)
+            weaponHitbox.canHit = false;
     }
 
     void FinishJumpAttack()
@@ -178,14 +202,6 @@ public class PlayerController : MonoBehaviour
         isDead = true;
         anim.SetFloat("Speed", 0f);
         anim.SetTrigger("Die");
-
-        if (sword != null)
-            sword.SetActive(false);
-        if (swordOnBack != null)
-            swordOnBack.SetActive(false);
-
-        if (weaponHitbox != null)
-            weaponHitbox.canHit = false;
 
         float dieDuration = 2f;
         AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;

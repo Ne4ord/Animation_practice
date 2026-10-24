@@ -7,7 +7,7 @@ public class Enemy : MonoBehaviour
     public float moveSpeed = 1.5f;
     public float stopDistance = 2f;
 
-    private Transform player;
+    private Transform player;   
     private bool isDead = false;
     private Collider enemyCollider;
 
@@ -26,7 +26,9 @@ public class Enemy : MonoBehaviour
     {
         if (isDead || player == null) return;
 
-        float distance = Vector3.Distance(transform.position, player.position);
+        Vector3 toPlayer = player.position - transform.position;
+        toPlayer.y = 0;
+        float distance = toPlayer.magnitude;
 
         if (distance > stopDistance)
         {
