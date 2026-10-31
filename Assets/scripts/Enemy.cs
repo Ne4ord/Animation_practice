@@ -1,20 +1,26 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class Enemy : MonoBehaviour
 {
+    private NavMeshAgent agent;
     [Header("Stats")]
     public int health = 1;
     public float moveSpeed = 1.5f;
     public float stopDistance = 2f;
 
-    private Transform player;   
+    [Header("Audio & VFX")]
+    public AudioClip deathSound;      
+    public GameObject explosionPrefab; 
+
+    private Transform player;
     private bool isDead = false;
     private Collider enemyCollider;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
-
+        agent = GetComponent<NavMeshAgent>();
         enemyCollider = GetComponent<Collider>();
         if (enemyCollider != null)
             enemyCollider.enabled = true;
@@ -26,18 +32,18 @@ public class Enemy : MonoBehaviour
     {
         if (isDead || player == null) return;
 
-        Vector3 toPlayer = player.position - transform.position;
-        toPlayer.y = 0;
-        float distance = toPlayer.magnitude;
+        float distance = Vector3.Distance(transform.position, player.position);
 
         if (distance > stopDistance)
         {
-            Vector3 direction = (player.position - transform.position).normalized;
-            direction.y = 0;
-            transform.position += direction * moveSpeed * Time.deltaTime;
+            agent.isStopped = false;
+            agent.SetDestination(player.position);
 
-            if (direction.magnitude > 0.1f)
-                transform.forward = direction;
+
+        }
+        else
+        {
+            agent.isStopped = true;
         }
     }
 
@@ -54,13 +60,49 @@ public class Enemy : MonoBehaviour
         if (enemyCollider != null)
             enemyCollider.enabled = false;
 
+       
+        PlaySound2D(deathSound, 1f);
+
+       
+        if (explosionPrefab != null)
+        {
+            Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        }
+
+        
         GameManager.Instance?.AddScore(1);
         EnemySpawner.Instance?.OnEnemyKilled();
+
+       
         Destroy(gameObject, 0.3f);
     }
 
     public bool IsDead()
     {
         return isDead;
+    }
+
+   
+    void PlaySound2D(AudioClip clip, float volume)
+    {
+        if (clip == null) return;
+
+        
+        GameObject tempAudioObject = new GameObject("TempAudio_" + clip.name);
+        tempAudioObject.transform.position = transform.position;
+
+        
+        AudioSource audioSource = tempAudioObject.AddComponent<AudioSource>();
+        audioSource.clip = clip;
+        audioSource.volume = volume;
+
+        
+        audioSource.spatialBlend = 0f;
+
+        
+        audioSource.Play();
+
+        
+        Destroy(tempAudioObject, clip.length);
     }
 }

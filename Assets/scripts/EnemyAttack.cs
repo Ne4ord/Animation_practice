@@ -21,7 +21,6 @@ public class EnemyAttack : MonoBehaviour
     {
         if (enemy != null && enemy.IsDead()) return;
         if (player == null) return;
-
         Vector3 toPlayer = player.position - transform.position;
         toPlayer.y = 0;
         float distance = toPlayer.magnitude;

@@ -1,5 +1,6 @@
-    using UnityEngine;
+using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
 
 public class GameManager : MonoBehaviour
 {
@@ -13,6 +14,9 @@ public class GameManager : MonoBehaviour
     public GameObject restartButton;
 
     private bool isGameOver = false;
+    public event Action<int> OnScoreChanged;
+    public event Action OnGameWon;
+    public event Action OnGameLost;
 
     void Awake()
     {
@@ -24,12 +28,9 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        if (winText != null)
-            winText.SetActive(false);
-        if (loseText != null)
-            loseText.SetActive(false);
-        if (restartButton != null)
-            restartButton.SetActive(false);
+        if (winText != null) winText.SetActive(false);
+        if (loseText != null) loseText.SetActive(false);
+        if (restartButton != null) restartButton.SetActive(false);
     }
 
     public void AddScore(int amount)
@@ -37,6 +38,9 @@ public class GameManager : MonoBehaviour
         if (isGameOver) return;
 
         score += amount;
+
+        
+        OnScoreChanged?.Invoke(score);
 
         if (score >= totalEnemies)
         {
@@ -50,10 +54,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         ShowCursor();
 
-        if (winText != null)
-            winText.SetActive(true);
-        if (restartButton != null)
-            restartButton.SetActive(true);
+        if (winText != null) winText.SetActive(true);
+        if (restartButton != null) restartButton.SetActive(true);
+
+        OnGameWon?.Invoke();
     }
 
     public void GameOver()
@@ -64,10 +68,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f;
         ShowCursor();
 
-        if (loseText != null)
-            loseText.SetActive(true);
-        if (restartButton != null)
-            restartButton.SetActive(true);
+        if (loseText != null) loseText.SetActive(true);
+        if (restartButton != null) restartButton.SetActive(true);
+
+        OnGameLost?.Invoke();
     }
 
     void ShowCursor()

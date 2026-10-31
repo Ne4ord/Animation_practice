@@ -1,8 +1,12 @@
 using UnityEngine;
 using System.Collections;
+using System;
+
+
 
 public class PlayerController : MonoBehaviour
 {
+    public event Action<int> OnHealthChanged;
     [Header("Movement")]
     public float walkSpeed = 1.11f;  // 5 км/ч
     public float runSpeed = 8.33f;   // 30 км/ч
@@ -21,11 +25,9 @@ public class PlayerController : MonoBehaviour
     private Animator anim;
     public WeaponHitbox weaponHitbox;
     private bool isAttacking = false;
-    private bool isJumpAttacking = false;
     private bool isDead = false;
     public int currentHealth;
     private float attackDuration;
-    private float jumpAttackDuration;
 
     void Start()
     {
@@ -34,26 +36,24 @@ public class PlayerController : MonoBehaviour
 
         if (weaponHitbox == null)
             weaponHitbox = GetComponentInChildren<WeaponHitbox>();
-        if (weaponHitbox == null)
-            weaponHitbox = gameObject.AddComponent<WeaponHitbox>();
 
+       
         AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;
         foreach (AnimationClip clip in clips)
         {
-            if (clip.name.ToLower().Contains("jump"))
-                jumpAttackDuration = clip.length;
-            else if (clip.name.ToLower().Contains("attack"))
+            if (clip.name.ToLower().Contains("attack"))
+            {
                 attackDuration = clip.length;
+                break;
+            }
         }
     }
 
     void Update()
     {
-        if (isDead) return;
+        if (isDead) return; 
         if (Time.timeScale == 0f) return;
-
-        if (isAttacking || isJumpAttacking)
-            return;
+        if (isAttacking) return;
 
         float h = Input.GetAxis("Horizontal");
         float v = Input.GetAxis("Vertical");
@@ -76,28 +76,22 @@ public class PlayerController : MonoBehaviour
             transform.position += moveDirection * targetSpeed * Time.deltaTime;
             transform.forward = moveDirection;
 
-            
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, targetSpeed, Time.deltaTime * animationSmooth));
         }
         else
         {
-            
             float currentAnimSpeed = anim.GetFloat("Speed");
             anim.SetFloat("Speed", Mathf.Lerp(currentAnimSpeed, 0f, Time.deltaTime * animationSmooth));
         }
 
-        if (Input.GetMouseButtonDown(0) && !isAttacking && !isJumpAttacking)
+        if (Input.GetMouseButtonDown(0) && !isAttacking)
             StartAttack();
-
-        if (Input.GetKeyDown(KeyCode.Space) && !isAttacking && !isJumpAttacking)
-            StartJumpAttack();
     }
 
     void StartAttack()
     {
         isAttacking = true;
-
         anim.SetFloat("Speed", 0f);
         anim.SetTrigger("Attack");
 
@@ -107,82 +101,17 @@ public class PlayerController : MonoBehaviour
             weaponHitbox.canHit = false;
         }
 
-        StartCoroutine(AttackRoutine("Attack", attackDuration, false));
+        StartCoroutine(AttackRoutine());
     }
 
-    void StartJumpAttack()
+    IEnumerator AttackRoutine()
     {
-        isJumpAttacking = true;
-
-        anim.SetFloat("Speed", 0f);
-        anim.SetTrigger("JumpAttack");
-
-        if (weaponHitbox != null)
-        {
-            weaponHitbox.ResetHitbox();
-            weaponHitbox.canHit = false;
-        }
-
-        StartCoroutine(AttackRoutine("JumpAttack", jumpAttackDuration, true));
-    }
-
-    IEnumerator AttackRoutine(string stateName, float fallbackLength, bool jump)
-    {
-        float length = 0f;
-        float waited = 0f;
-
-        while (length <= 0f && waited < 0.5f)
-        {
-            AnimatorStateInfo next = anim.GetNextAnimatorStateInfo(0);
-            AnimatorStateInfo current = anim.GetCurrentAnimatorStateInfo(0);
-
-            if (next.IsName(stateName))
-                length = next.length;
-            else if (current.IsName(stateName))
-                length = current.length;
-            else
-            {
-                waited += Time.deltaTime;
-                yield return null;
-            }
-        }
-
-        if (length <= 0f)
-            length = fallbackLength > 0f ? fallbackLength : 1f;
-
-        yield return new WaitForSeconds(length * hitStartPercent);
-        EnableHit();
-        yield return new WaitForSeconds(length * (hitEndPercent - hitStartPercent));
-        DisableHit();
-        yield return new WaitForSeconds(length * (1f - hitEndPercent));
-
-        if (jump)
-            FinishJumpAttack();
-        else
-            FinishAttack();
-    }
-
-    void EnableHit()
-    {
+        yield return new WaitForSeconds(attackDuration * hitStartPercent);
         if (weaponHitbox != null) weaponHitbox.canHit = true;
-    }
-
-    void DisableHit()
-    {
+        yield return new WaitForSeconds(attackDuration * (hitEndPercent - hitStartPercent));
         if (weaponHitbox != null) weaponHitbox.canHit = false;
-    }
-
-    void FinishAttack()
-    {
+        yield return new WaitForSeconds(attackDuration * (1f - hitEndPercent));
         isAttacking = false;
-        if (weaponHitbox != null)
-            weaponHitbox.canHit = false;
-    }
-
-    void FinishJumpAttack()
-    {
-        isJumpAttacking = false;
-        if (weaponHitbox != null) weaponHitbox.canHit = false;
     }
 
     public void TakeDamage(int damage)
@@ -190,9 +119,11 @@ public class PlayerController : MonoBehaviour
         if (isDead) return;
 
         currentHealth -= damage;
+        OnHealthChanged?.Invoke(currentHealth);
 
         if (currentHealth <= 0)
         {
+            
             Die();
         }
     }
@@ -201,20 +132,13 @@ public class PlayerController : MonoBehaviour
     {
         isDead = true;
         anim.SetFloat("Speed", 0f);
-        anim.SetTrigger("Die");
 
-        float dieDuration = 2f;
-        AnimationClip[] clips = anim.runtimeAnimatorController.animationClips;
-        foreach (AnimationClip clip in clips)
-        {
-            if (clip.name.ToLower().Contains("die"))
-            {
-                dieDuration = clip.length;
-                break;
-            }
-        }
+       
 
-        Invoke(nameof(TriggerGameOver), dieDuration);
+       
+        if (weaponHitbox != null)
+            weaponHitbox.canHit = false;
+        TriggerGameOver();
     }
 
     void TriggerGameOver()

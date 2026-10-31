@@ -3,9 +3,9 @@ using System.Collections.Generic;
 
 public class WeaponHitbox : MonoBehaviour
 {
-    public Collider hitboxCollider;
     [System.NonSerialized] public bool canHit = false;
 
+    [Header("Hit Area")]
     public float hitRadius = 1.5f;
     public float forwardOffset = 1.0f;
     public float heightOffset = 1.0f;
@@ -16,37 +16,17 @@ public class WeaponHitbox : MonoBehaviour
     {
         canHit = false;
         hitEnemies.Clear();
-
-        if (hitboxCollider != null)
-            hitboxCollider.enabled = false;
     }
 
     void Update()
     {
-        if (hitboxCollider != null)
-            hitboxCollider.enabled = canHit;
-
         if (!canHit) return;
-
-        Vector3 center = transform.position
-                         + transform.forward * forwardOffset
-                         + Vector3.up * heightOffset;
+        Vector3 center = transform.position + transform.forward * forwardOffset+ Vector3.up * heightOffset;
 
         Collider[] hits = Physics.OverlapSphere(center, hitRadius);
         foreach (Collider other in hits)
             TryHit(other);
-
-        if (hitboxCollider != null)
-        {
-            Bounds b = hitboxCollider.bounds;
-            Collider[] swordHits = Physics.OverlapBox(b.center, b.extents, hitboxCollider.transform.rotation);
-            foreach (Collider other in swordHits)
-                TryHit(other);
-        }
     }
-
-    void OnTriggerEnter(Collider other) { if (canHit) TryHit(other); }
-    void OnTriggerStay(Collider other)  { if (canHit) TryHit(other); }
 
     void TryHit(Collider other)
     {

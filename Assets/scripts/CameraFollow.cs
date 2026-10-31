@@ -31,12 +31,14 @@ public class CameraFollow : MonoBehaviour
         rotationY = angles.x;
     }
 
-    void LateUpdate()
+    void LateUpdate() 
     {
-        if (player == null) return;
+        if (player == null)
+            return;
 
         
-        if (Time.timeScale == 0f) return;
+        if (Time.timeScale == 0f)
+            return;
 
         
         rotationX += Input.GetAxis("Mouse X") * mouseSensitivity;

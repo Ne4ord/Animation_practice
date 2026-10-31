@@ -5,7 +5,7 @@ public class EnemySpawner : MonoBehaviour
     public static EnemySpawner Instance;
 
     public GameObject enemyPrefab;
-    public int maxEnemies = 3;
+    public int maxEnemies = 10;
     public float spawnDistanceMin = 5f;
     public float spawnDistanceMax = 10f;
 
@@ -34,7 +34,7 @@ public class EnemySpawner : MonoBehaviour
     public void OnEnemyKilled()
     {
         currentEnemies--;
-        if (currentEnemies < maxEnemies && enemyPrefab != null)
+        if (enemyPrefab != null)
         {
             SpawnEnemy();
         }
@@ -49,14 +49,6 @@ public class EnemySpawner : MonoBehaviour
         randomPos.y = 1;
 
         GameObject enemyObj = Instantiate(enemyPrefab, randomPos, Quaternion.identity);
-
-        
-        enemyObj.SetActive(true);
-        foreach (MonoBehaviour mb in enemyObj.GetComponents<MonoBehaviour>())
-        {
-            if (mb is Enemy || mb is EnemyAttack)
-                mb.enabled = true;
-        }
 
         currentEnemies++;
     }
